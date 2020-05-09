@@ -9,7 +9,7 @@ const numSplit = (size, arr) => {
 
 const makeString = (arr) => {
     let loop = 1;
-    let str = arr.reduce((acc, v, i) => {
+    return arr.reduce((acc, v, i) => {
         if (i == arr.length - 1) {
             acc += (loop == 1) ? v : loop + v;
             return acc;
@@ -22,7 +22,6 @@ const makeString = (arr) => {
         }
         return acc;
     }, "");
-    return str;
 }
 
 const solution = (s) => {
