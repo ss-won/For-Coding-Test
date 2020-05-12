@@ -4,8 +4,9 @@
         [Reference] https: //github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/algorithm/basic/IsAnagram.java
 */
 
-// 방법 1. O(nlogn) : 정렬 후에 비교하기->단, merge-sort를 사용했다는 가정하에
+// 방법 1. O(nlogn) : 정렬 후에 비교하기->단, merge-sort(O(nlogn))를 사용했다는 가정하에
 // javascript는 보통 merge sort + Insertion sort가 결합된 Timesort 기법을 쓰기 때문에 Time Complexity가 불문명하다.
+// Timesort의 TimeComplexity는 O(n*n)보다 항상 작다.
 const _ckAnagram1 = (s1,s2) => {
     let arr1 = s1.split("");
     let arr2 = s2.split("");
