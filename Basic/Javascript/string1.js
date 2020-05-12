@@ -20,6 +20,7 @@
          //#1 형변환 함수 이용하기
             //return parseInt(s);
             //return Number(s);
+
          //#2 자동 형변환 시키기
          /*
             let arr = s.split("");
@@ -30,6 +31,7 @@
             }
             return base;
         */
+        //#3 자동 형변환 시키기(간소화)
         return (s *= 1);
     }
 
