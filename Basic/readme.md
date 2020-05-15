@@ -52,5 +52,5 @@
     * 경우의 수가 매우 많을 경우 -> 기타 다른 `자료구조` 및 `알고리즘` 이용하기
 
 ## LICENSE
-본 게시물을 아래의 LISENCE에 의거하여 작성되었으며, 저작권은 [이곳](https://github.com/JaeYeopHanalgorithm_basic_java)에 있습니다.  <br><br> <a rel="license" href="http://creativecommons.orglicenses/by/4.0/"><img alt="크리에이티브커먼즈 라이선스" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
+본 게시물을 아래의 LISENCE에 의거하여 작성되었으며, 저작권은 [이곳](https://github.com/JaeYeopHanalgorithm_basic_java)에 있습니다.  <br><br><a rel="license" href="http://creativecommons.orglicenses/by/4.0/"><img alt="크리에이티브커먼즈 라이선스" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
     
