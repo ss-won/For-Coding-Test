@@ -19,7 +19,7 @@
     [[code]](https://github.com/ss-won/For-Coding-Test/blob/master/Basic/Javascript/string4.js)
     * 애너그램은 단어의 요소의 위치를 바꿔서 다른 단어를 만들어내는 것으로 단어안의 요소와 글자의 길이를 비교하면 된다.
     * HashMap을 사용해 글자의 개수를 비교하면 평균적인 시간복잡도를 줄일 수 있다.(O(nlogn)->O(n))
-    * __<특이사항>__ 우아한형제들 테크캠프 FE 1차 코딩테스트(2020) 출제 : 주어진 문자열 배열에서 애너그램 요소끼리 묶어서 출력
+    * <특이사항> 우아한형제들 테크캠프 코딩테스트 문제 Base
 * 주어진 문자열을 길이와 함께 적어주면서 압축을 한다.
     [[code]](https://github.com/ss-won/For-Coding-Test/blob/master/Basic/Javascript/string5.js)
     * Javascript의 `Map`과 `Map.prototype.forEach(callbackfun(value,key,thisMap))` 메소드를 활용하면 간결하게 구현할 수 있다.
