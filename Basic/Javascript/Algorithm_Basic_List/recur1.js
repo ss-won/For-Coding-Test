@@ -20,7 +20,7 @@
     assert.strictEqual(calcDiceCase2(8), 125);
 
     //1-6까지의 수로 주어진 수(n)을 표기하는 방법의 수를 구하라.
-    //DP
+    //DP => Recursion + Memoization 필수
     /*
         D(n) = (1)Sum(k=1부터 k=n-1까지 D(k)) (0<n<=6) -> 2^n-1
                (2)Sum(k=n-6부터 k=n-1까지 D(k)) (n>6)
