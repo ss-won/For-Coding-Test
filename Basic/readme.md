@@ -1,5 +1,5 @@
 # Basic Exercising
- 본 코드는 <https://github.com/JaeYeopHan/algorithm_basic_java>에서 Java로 작성된 코드들에 기반하여 Javscript, C++(예정)로 작성되었음을 알려드립니다. <br>코딩테스트에 대비에 필요한 필수 기본문항과 풀이방법을 담고 있습니다. 실제 필자가 경험한 코딩테스트나, 타 IDE에서 풀었던 문제의 바탕이 되는 부분은 __<특이사항>__ 으로 정리하였습니다. <br>작성된 코드는 모두 `For-Coding-Test/Basic/Javascript`디렉토리에 저장되어 있습니다.
+ 본 코드는 <https://github.com/JaeYeopHan/algorithm_basic_java>에서 Java로 작성된 코드들에 기반하여 Javscript, C++(예정)로 작성되었음을 알려드립니다. <br>코딩테스트에 대비에 필요한 필수 기본문항과 풀이방법을 담고 있습니다. 실제 필자가 경험한 코딩테스트나, 타 IDE에서 풀었던 문제의 바탕이 되는 부분은 __<특이사항>__ 으로 정리하였습니다. <br>작성된 코드는 모두 `For-Coding-Test/Basic/Javascript/*`디렉토리에 저장되어 있습니다.
 </br>
 
 ## Algorithm basic list
