@@ -47,12 +47,21 @@
     * `base % 10 = 1의 자리수`를 구할 수 있다는 점을 이용한다.
 * 사다리를 한 칸 또는 두 칸씩 오를 수 있다고 했을 때 사다리 높이에 따른 사다리 오르기 방법의 경우의 수를 구한다.
     [[code]](https://github.com/ss-won/For-Coding-Test/blob/master/Basic/Javascript/Algorithm_Basic_List/math6.js)
-    * 경우의 수가 많지 않은 경우의 수 문제 -> `완전탐색`
-    * 점화식을 세울 수 있는 경우 -> `DP`
-    * 경우의 수가 매우 많을 경우 -> 기타 다른 `자료구조` 및 `알고리즘` 이용하기
+    * `완전탐색`에서 점화식을 세울 수 있는 경우 -> `DP`
+    * `완전탐색`에서 경우의 수가 적을 경우 -> `Brute_Force(브루스포스)`
 ### Recursion Part
 * 주사위로 이동 가능한 경우의 수를 모두 구한다.
     [[code]](https://github.com/ss-won/For-Coding-Test/blob/master/Basic/Javascript/Algorithm_Basic_List/recur1.js)
+* n비트의 모든 경우의 수를 출력한다.
+    [[code]](https://github.com/ss-won/For-Coding-Test/blob/master/Basic/Javascript/Algorithm_Basic_List/recur2.js)
+* 순열을 구한다.
+    [[code]](https://github.com/ss-won/For-Coding-Test/blob/master/Basic/Javascript/Algorithm_Basic_List/recur3.js)
+    * _<특이사항>_ 완전탐색 문제 베이스로 자주 출제되는 편
+    * 유사응용문제: [백준10974](https://www.acmicpc.net/problem/10974), [백준6603](https://www.acmicpc.net/problem/6603)
+* N개 괄호로 만들 수 있는 모든 조합 출력하기.
+
+## REFERENCE
+* [브랜든의 블로그 - [알고리즘]완전탐색](https://brenden.tistory.com/10)
 
 ## LICENSE
 본 게시물을 아래의 LISENCE에 의거하여 작성되었으며, 저작권은 [이곳](https://github.com/JaeYeopHanalgorithm_basic_java)에 있습니다.  <br><br><a rel="license" href="http://creativecommons.orglicenses/by/4.0/"><img alt="크리에이티브커먼즈 라이선스" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
