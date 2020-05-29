@@ -69,7 +69,7 @@
 ### BinaryTree
 ### Priority Queue
 
-## REFERENCE
+## Reference
 * [브랜든의 블로그 - [알고리즘]완전탐색](https://brenden.tistory.com/10)
 * 카카오 코딩테스트 문항 출저 - [프로그래머스(Programmers)](https://programmers.co.kr/learn/challenges)
 
