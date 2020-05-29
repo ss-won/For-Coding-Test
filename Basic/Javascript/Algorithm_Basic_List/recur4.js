@@ -4,7 +4,7 @@
         [Reference] https: //github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/algorithm/recursion/BraceCombination.java
      */
     //메모제이션의 경우 전역으로 선언해면 재사용성이 좋다.
-    //@Golbal Variable
+    //@Global Variable
     let res = [[""]];
 
     //@Test
@@ -50,7 +50,7 @@
         (1) ")"의 괄호의 개수가 "("보다 더 많을 때 
         (2) 주어진 괄호의 개수보다 많이 사용했을때
 
-        [탐색이 끝난 유효 괄호 Case] -> 탐색 종료 제한조건
+        [탐색이 끝난 유효 괄호 Case] -> 탐색 종료 제약조건
         (1) "("괄호의 개수와 ")" 개수가 동시에 모두 0일때 -> 주어진 괄호를 모두 소진했다는 의미
     */
     function calBracket2(n){
