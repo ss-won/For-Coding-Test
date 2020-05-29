@@ -11,7 +11,7 @@
 - 기초적인 DS, PS문제 풀이
 ### [백준 문제풀이](https://github.com/ss-won/For-Coding-Test/blob/master/Baekjun/baekjun.md)  
 - 유저들에게 인기가 많은 문제집, 대표 알고리즘 활용 유형
-### [프로그래머스 문제풀이](https://github.com/ss-won/For-Coding-Test/blob/master/Baekjun/programmers.md)  
+### [프로그래머스 문제풀이](https://github.com/ss-won/For-Coding-Test/blob/master/Programmers/programmers.md)  
 - 카카오, 프로그래머스 챌린지, 코딩테스트 코득점 Kit 위주
 ### [SWEA 문제풀이]()
 - D2-D4 문제풀이, A형 대비
