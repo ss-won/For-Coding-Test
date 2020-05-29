@@ -17,14 +17,12 @@
         if(nBits[n]!=undefined){
             return nBits[n];
         }
-        else{
-            let tmp = [];
-            solution(n-1).forEach((v)=>{
-                tmp.push(v+"0");
-                tmp.push(v+"1");
-            })
-            return nBits[n] = tmp;
-        }
+        let tmp = [];
+        solution(n-1).forEach((v)=>{
+            tmp.push(v+"0");
+            tmp.push(v+"1");
+        })
+        return nBits[n] = tmp;
     }
 
     //Top-down

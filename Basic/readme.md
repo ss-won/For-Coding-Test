@@ -22,7 +22,7 @@
 * 주어진 문자열을 길이와 함께 적어주면서 압축을 한다.
     [[code]](https://github.com/ss-won/For-Coding-Test/blob/master/Basic/Javascript/Algorithm_Basic_List/string5.js)
     * Javascript의 `Map`과 `Map.prototype.forEach(callbackfun(value,key,thisMap))` 메소드를 활용하면 간결하게 구현할 수 있다.
-    * __<특이사항>__ 카카오 겨울인턴십 코딩테스트(2020) : 주어진 문자열 배열들을 압축할때, 가장 최소의 크기로 압축되는 경우의 길이를 출력
+    * __<특이사항>__ 카카오 겨울인턴십 코딩테스트(2020) [[문제]](https://programmers.co.kr/learn/courses/30/lessons/60057) [[code]](https://github.com/ss-won/For-Coding-Test/blob/master/KaKao/%5BLevle2%5D%EB%AC%B8%EC%9E%90%EC%97%B4%20%EC%95%95%EC%B6%95.js)
 * 주어진 문서(단어별로 나뉘어진 배열)에서 특정 단어의 빈도를 구한다.
     [[code]](https://github.com/ss-won/For-Coding-Test/blob/master/Basic/Javascript/Algorithm_Basic_List/string6.js)
     * HashMap을 사용하여 빈도수를 저장한다.
@@ -48,7 +48,7 @@
 * 사다리를 한 칸 또는 두 칸씩 오를 수 있다고 했을 때 사다리 높이에 따른 사다리 오르기 방법의 경우의 수를 구한다.
     [[code]](https://github.com/ss-won/For-Coding-Test/blob/master/Basic/Javascript/Algorithm_Basic_List/math6.js)
     * `완전탐색`에서 점화식을 세울 수 있는 경우 -> `DP`
-    * `완전탐색`에서 경우의 수가 적을 경우 -> `Brute_Force(브루스포스)`
+    * `완전탐색`에서 경우의 수가 적을 경우 -> `Brute Force(브루스포스)`
 ### Recursion Part
 * 주사위로 이동 가능한 경우의 수를 모두 구한다.
     [[code]](https://github.com/ss-won/For-Coding-Test/blob/master/Basic/Javascript/Algorithm_Basic_List/recur1.js)
@@ -56,12 +56,22 @@
     [[code]](https://github.com/ss-won/For-Coding-Test/blob/master/Basic/Javascript/Algorithm_Basic_List/recur2.js)
 * 순열을 구한다.
     [[code]](https://github.com/ss-won/For-Coding-Test/blob/master/Basic/Javascript/Algorithm_Basic_List/recur3.js)
-    * _<특이사항>_ 완전탐색 문제 베이스로 자주 출제되는 편
+    * __<특이사항>__ 완전탐색 문제 베이스로 자주 출제되는 편
     * 유사응용문제: [백준10974](https://www.acmicpc.net/problem/10974), [백준6603](https://www.acmicpc.net/problem/6603)
 * N개 괄호로 만들 수 있는 모든 조합 출력하기.
+    [[code]](https://github.com/ss-won/For-Coding-Test/blob/master/Basic/Javascript/Algorithm_Basic_List/recur4.js)
+    * __<특이사항>__ 카카오 겨울인턴십 코딩테스트(2020) [[문제]](https://programmers.co.kr/learn/courses/30/lessons/60058) [[code]](https://github.com/ss-won/For-Coding-Test/blob/master/KaKao/%5BLevel2%5D%EA%B4%84%ED%98%B8%20%EB%B3%80%ED%99%98.js)
+
+## DataStructure
+### Linked List
+### Stack
+### Queue
+### BinaryTree
+### Priority Queue
 
 ## REFERENCE
 * [브랜든의 블로그 - [알고리즘]완전탐색](https://brenden.tistory.com/10)
+* 카카오 코딩테스트 문항 출저 - [프로그래머스(Programmers)](https://programmers.co.kr/learn/challenges)
 
 ## LICENSE
 본 게시물을 아래의 LISENCE에 의거하여 작성되었으며, 저작권은 [이곳](https://github.com/JaeYeopHanalgorithm_basic_java)에 있습니다.  <br><br><a rel="license" href="http://creativecommons.orglicenses/by/4.0/"><img alt="크리에이티브커먼즈 라이선스" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>

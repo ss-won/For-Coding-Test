@@ -14,7 +14,8 @@
         let permuts = [
             [""]
         ];
-        let n = str.length;  
+        let n = str.length;
+        if(n===0) return null;  
         permuts.push(str.toString().split(""));
         return new Permutation(n, permuts);
     }
@@ -40,7 +41,7 @@
         'use strict';
         let visited = [];
         let res = [];
-        if (str == "") return null;
+        if (str === "") return null;
         for(let i=0;i<str.length;i++){
             visited.push(false);
         }

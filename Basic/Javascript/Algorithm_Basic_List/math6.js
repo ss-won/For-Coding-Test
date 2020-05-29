@@ -29,7 +29,7 @@
         return memo[h] = solution(h-1) + solution(h-2);
     }
 
-    //#2 완전탐색 Ver
+    //#2 조합 Ver
     //2가 들어갈 수 있는 개수 만큼 loop 돌린 조합의 배열순서 개수 출력
     function solution2(h){
         let sum = 0;
@@ -37,7 +37,6 @@
         if (h<=1) return 1;
         for(let i=loop;i>=0;i--){
             let tmp = mkCom(h-i,i);
-            console.log(h-i,i,tmp);
             sum+= tmp;
         }
         return sum;
