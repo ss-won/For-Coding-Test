@@ -20,5 +20,18 @@ const getwordFreq = (sarr, word) => {
     return wordMap.has(word.toLowerCase()) ? wordMap.get(word) : 0; 
 }
 
+const getwordFreq2 = (sarr, word) => {
+    return sarr.filter(v=>v.toLowerCase()===word.toLowerCase()).length;
+}
+
+const getwordFreq3 = (sarr, word) => {
+    return sarr.reduce((acc, cur) => {
+        if (word.toLowerCase() === cur.toLowerCase()) return acc += 1;
+        return acc;
+    }, 0);
+}
+
 //@Test
 console.log(getwordFreq(["Whyrano","...","Whyrano","...","Whyrano"],"whyrano"));//3;
+console.log(getwordFreq2(["Whyrano", "...", "Whyrano", "...", "Whyrano"], "whyrano")); //3;
+console.log(getwordFreq3(["Whyrano", "...", "Whyrano", "...", "Whyrano"], "whyrano")); //3;
