@@ -29,29 +29,26 @@
     
     
     function calcDiceCase1(n){
-        let res = 0;
         if(n<0) return 0;
-        if(memo[n]!=undefined) {return memo[n];}
+        if(memo[n]) return memo[n]
         else{
             if(n<=6) {
                 return Math.pow(2,n-1);
             }
-            else {
-                return memo[n] = parseInt(calcDiceCase1(n-1)*2) - calcDiceCase1(n-7);
-            }
+            return memo[n] = parseInt(calcDiceCase1(n-1)*2) - calcDiceCase1(n-7);
         }
     }
 
     function calcDiceCase2(n){
         let res = 0;
         if (n < 0) return 0;
-        if (memo[n] != undefined) {
+        if (memo[n]) {
             return memo[n];
         } 
         else {
             for(let i=1;i<=6;i++){
                 if(n-i>=0){
-                    if(memo[n-i]==undefined) memo[n-i] = calcDiceCase2(n-i);
+                    if(!memo[n-i]) memo[n-i] = calcDiceCase2(n-i);
                     res += memo[n - i];
                 }
             }

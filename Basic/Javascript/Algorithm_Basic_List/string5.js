@@ -18,7 +18,7 @@ const strCompress_map = (s) => {
             numMap.set(arr[i],1);
         }
     }
-    numMap.forEach((v,k)=>res+= v+k);
+    numMap.forEach((v,k)=>res += v+k);
     return res;
 } 
 
@@ -29,7 +29,7 @@ const strCompress_arr = (s) => {
     let count = 0;
     let res = '';
     for(let c of arr){
-        if(pre==c){
+        if(pre===c){
             count++;
         }
         else{

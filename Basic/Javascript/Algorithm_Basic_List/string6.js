@@ -21,7 +21,7 @@ const getwordFreq = (sarr, word) => {
 }
 
 const getwordFreq2 = (sarr, word) => {
-    return sarr.filter(v=>v.toLowerCase()===word.toLowerCase()).length;
+    return sarr.filter(v => v.toLowerCase()===word.toLowerCase()).length;
 }
 
 const getwordFreq3 = (sarr, word) => {

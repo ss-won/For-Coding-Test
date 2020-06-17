@@ -15,6 +15,14 @@
     assert.strictEqual(solution(5), 8);
     assert.strictEqual(solution(6), 13);
     assert.strictEqual(solution(7), 21);
+    assert.strictEqual(solution2(0), 1);
+    assert.strictEqual(solution2(1), 1);
+    assert.strictEqual(solution2(2), 2);
+    assert.strictEqual(solution2(3), 3);
+    assert.strictEqual(solution2(4), 5);
+    assert.strictEqual(solution2(5), 8);
+    assert.strictEqual(solution2(6), 13);
+    assert.strictEqual(solution2(7), 21);
 
     //경우의 수가 많지 않은 경우의 수 문제 -> 완전탐색
     //점화식을 세울 수 있는 경우 -> DP, 경우의 수가 매우 많을 경우 -> 기타 다른 자료구조 및 알고리즘 이용하기
@@ -25,25 +33,25 @@
     //D(h) = D(h-1):한칸 올라가는 것을 택한 경우의수 + D(h-2):두칸 올라가는 것을 택한 경우
     function solution(h){
         if(h<0) return 1;
-        if(memo[h]!=undefined) return memo[h];
+        if(memo[h]) return memo[h];
         return memo[h] = solution(h-1) + solution(h-2);
     }
 
     //#2 조합 Ver
-    //2가 들어갈 수 있는 개수 만큼 loop 돌린 조합의 배열순서 개수 출력
+    //2 가 들어갈 수 있는 개수 만큼 loop 돌린 조합의 배열순서 개수 출력
     function solution2(h){
         let sum = 0;
         let loop = parseInt(h / 2);
         if (h<=1) return 1;
         for(let i=loop;i>=0;i--){
             let tmp = mkCom(h-i,i);
-            sum+= tmp;
+            sum += tmp;
         }
         return sum;
     }
 
     function mkCom(n,r){
-        if(n==0||n==r) return 1;
+        if( !n || !r || n===r ) return 1;
         return mkCom(n-1,r-1) + mkCom(n-1,r);
     }
 

@@ -10,11 +10,11 @@
 const _ckAnagram1 = (s1,s2) => {
     let arr1 = s1.split("");
     let arr2 = s2.split("");
-    if(arr1.length!=arr2.length) return false;
+    if(arr1.length!==arr2.length) return false;
     arr1.sort();//기본적으로 abc 사전순으로 정렬해준다.
     arr2.sort();
     for(let i in arr1){
-        if(arr1[i]!=arr2[i]) return false;
+        if(arr1[i]!==arr2[i]) return false;
     }
     return true;
 } 
@@ -24,7 +24,7 @@ const _ckAnagram2 = (s1,s2) => {
     let arr1 = s1.split("");
     let arr2 = s2.split("");
     let _freq = new Map();//HashMap은 정렬할 필요가 없음
-    if(arr1.length != arr2.length) return false;
+    if(arr1.length !== arr2.length) return false;
 
     for(let n of arr1){
         if(_freq.has(n)){

@@ -15,7 +15,7 @@
             [""]
         ];
         let n = str.length;
-        if(n===0) return null;  
+        if(!n) return null;  
         permuts.push(str.toString().split(""));
         return new Permutation(n, permuts);
     }
@@ -23,9 +23,7 @@
     function Permutation(n, permuts){
         'use strict';
         let tmp = [];
-        if (permuts[n] != undefined) {
-            return permuts[n];
-        }
+        if (permuts[n]) return permuts[n];
         new Permutation(n - 1,permuts).forEach((v) => {
             for(let i of permuts[1]) {
                 if(!v.split("").includes(i))
@@ -39,18 +37,15 @@
     //중복된 숫자가 있더라도 방문여부 배열을 사용하므로 보다 정확함
     function solution2(str){
         'use strict';
-        let visited = [];
+        let visited = Array(str.length).fill(false);
         let res = [];
-        if (str === "") return null;
-        for(let i=0;i<str.length;i++){
-            visited.push(false);
-        }
+        if (!str) return null;
         return Permutation2(str,visited,"",res);
     }
 
     function Permutation2(str,visited,tmp,res){
         'use strict';
-        if(str.length==tmp.length){
+        if(str.length===tmp.length){
             res.push(tmp);
             return res;
         }

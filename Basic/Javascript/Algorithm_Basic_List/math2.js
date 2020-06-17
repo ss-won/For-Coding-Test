@@ -3,7 +3,6 @@
         n개의 서로 다른 원소 중 r개의 원소를 순서없이 선택하는 방법의 수를 구한다.
         [Reference] https: //github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/algorithm/basicMath/BasicCombination.java
      */
-    let memo = {};      
     const assert = require('assert').strict;
     assert.strictEqual(getByRecursion(0, 0), 1);//공집합
     assert.strictEqual(getByRecursion(1, 0), 1);//공집합
@@ -37,16 +36,13 @@
         if(r===0||n===r) return 1;
         if (n - r > n / 2) r = n - r;
         return getByRecursion(n-1,r-1) + getByRecursion(n-1,r);
-    } 
+    }
 
     //재귀 + 메모제이션
     function getByDp(n,r) {
-        let memo = new Array(100)
-        memo.fill(0);
-
+        let memo = Array.from(Array(10), () => Array(10).fill(0));
         if (r === 0 || n === r) return 1;
         if (n - r > n / 2) r = n - r;
-        if(memo[n][r]!==undefined) return memo[n][r];
+        if(memo[n][r]) return memo[n][r];
         return memo[n][r] = getByDp(n-1,r-1) + getByDp(n-1,r);
-        
     }

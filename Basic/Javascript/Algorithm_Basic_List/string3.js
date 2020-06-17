@@ -28,7 +28,7 @@
     //(3)HashSet을_사용한_방법
     const _useSet = (s) => {
         let set = new Set(s.split(""));
-        return (s.length==set.size) ? true : false;
+        return (s.length===set.size) ? true : false;
     }
 
     //@Test

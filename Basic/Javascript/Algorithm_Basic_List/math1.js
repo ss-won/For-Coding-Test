@@ -26,15 +26,15 @@
     function getgcd(a,b){
         //음수, 0 예외처리
         if(a < 0 ||b < 0) return -1;
-        if(a==0) return b;
+        if(a===0) return b;
         for(let i=Math.max(a,b);i>=1;i--){
-            if(a%i==0&&b%i==0) return i;
+            if(a%i===0 && b%i===0) return i;
         }
     }
     
     function getlcm(a,b){
         for(let i=1;i<Math.min(a,b);i++){
-            if (Math.max(a, b) * i % Math.min(a, b) == 0) 
+            if (Math.max(a, b) * i % Math.min(a, b) === 0) 
             return Math.max(a, b) * i
         }
     }
@@ -43,10 +43,10 @@
     //[Refrence] https://suhak.tistory.com/275
     function gcd(a,b){
         if(a<0||b<0) return -1;
-        if(b==0) return 0; //b로 나누는 경우 제외
+        if(b===0) return 0; //b로 나누는 경우 제외
         //나머지가 0일때까지 반복한다.
         let tmp = 0;
-        while(b!=0){
+        while(b!==0){
             tmp = b;
             b = a%b;
             a = tmp;
@@ -57,7 +57,7 @@
     function gcdRecursion(a,b){
         if(a<0||b<0) return -1;
         //재귀실행에서 b==0이란건 a%b==0이란 말과 같음
-        if(b==0) return a;
+        if(b===0) return a;
         else return gcdRecursion(b,a%b);
     }
     
