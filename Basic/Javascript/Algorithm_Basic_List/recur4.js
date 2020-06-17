@@ -34,7 +34,7 @@
 
     function mkBracket(n, res){
         let tmp = [];
-        if(res[n]!==undefined) return res[n];
+        if(res[n]) return res[n];
         mkBracket(n - 1, res).forEach((v) => tmp.push("(" + v + ")"));
         mkBracket(n - 1, res).forEach((v) => tmp = [...new Set([...tmp, "()" + v, v + "()"])]);
         return res[n] = tmp;
