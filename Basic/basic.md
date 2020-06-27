@@ -61,13 +61,70 @@
 * N개 괄호로 만들 수 있는 모든 조합 출력하기.
     [[code]](https://github.com/ss-won/For-Coding-Test/blob/master/Basic/Javascript/Algorithm_Basic_List/recur4.js)
     * __<특이사항>__ 카카오 겨울인턴십 코딩테스트(2020) [[문제]](https://programmers.co.kr/learn/courses/30/lessons/60058) [[code]](https://github.com/ss-won/For-Coding-Test/blob/master/KaKao/%5BLevel2%5D%EA%B4%84%ED%98%B8%20%EB%B3%80%ED%99%98.js)
+<hr>
 
 ## DataStructure
 ### Linked List
+- Array 를 기반으로한 Linked List 구현
+- ArrayList 를 기반으로한 Linked List 구현
+- 첫번째 원소를 제거한다.
+- 중복된 원소를 제거한다.
+- 역순으로 출력한다.
+- k번째 원소를 찾는다.
+- 회문인지 판단한다.
+
 ### Stack
+- Stack 을 사용하여 미로찾기 구현하기
+- Stack 두 개로 Queue 자료구조 구현하기
+- Stack 으로 괄호 유효성 체크 코드 구현하기
+- Array를 사용하여 Stack을 구현한다. 
+- ArrayList를 사용하여 Stack을 구현한다.
+- Stack에 저장된 값들 중 최소값을 반환하는 minStack() 함수를 구현한다.
+- Stack 자료구조를 사용하여 회문을 판별한다.
+- 괄호의 유효성을 체크한다.
+
 ### Queue
+- Queue 를 사용하여 Heap 자료구조 구현하기 
+- Stack을 사용하여 queue를 stack처럼 만든다.
+- Stack 두 개로 Queue를 구현한다.
+
 ### BinaryTree
+- Binary Search Tree 구현하기
+- 바이너리 트리에서 최대값을 구한다.
+- 주어진 바이너리 트리가 균형 잡힌 트리인지 판별한다.
+- 오름차순으로 정렬된 배열을 Binary Search Tree로 변환한다.
+- 주어진 트리가 BST인지 확인한다.
+
 ### Priority Queue
+- Priority queue를 사용하여 heap sort를 하라.
+- 많은 수 중 top 10을 구한다.
+
+### Binary Heap
+Heapify 구현하기
+<hr>
+
+## Sort and Search
+- bubble sort를 구현한다. 
+- Insertion sort를 구현한다. 
+- Selection sort를 구현한다. 
+- Quick sort를 구현한다.
+- radix sort를 구현한다.
+
+### Search
+- binary search를 사용하여 O(log n)의 시간복잡도로 target을 찾는다.
+- 정렬된 2차원 배열에서 검색한다.
+
+### bit
+- 2의 제곱수인지 판별한다.
+- 두 수에서 다른 비트의 개수를 구한다.
+- O(1)으로 해당 데이터가 존재하는지 판단한다.
+<hr>
+
+## Famous Algorithm
+- DFS
+- BFS
+- Karp_Rabin_Algorithm
+- KMP_Algorithm
 
 ## Reference
 * [브랜든의 블로그 - [알고리즘]완전탐색](https://brenden.tistory.com/10)
