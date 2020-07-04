@@ -14,7 +14,7 @@
     //Top-down (+ Memoizaiton)
     function solution(n){
         if(n<=0) return null;
-        if(nBits[n]!=undefined){
+        if(nBits[n]){
             return nBits[n];
         }
         let tmp = [];
@@ -32,7 +32,7 @@
     }
 
     function bitcombination(n,str,res){
-        if(n==str.length){
+        if(n===str.length){
             res.push(str);
             return res;
         }
