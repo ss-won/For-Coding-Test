@@ -28,7 +28,7 @@
     [[javascript]](https://github.com/ss-won/For-Coding-Test/blob/master/Basic/Javascript/Algorithm_Basic_List/string5.js) 
     [[c++]]()
     * Javascript의 `Map`과 `Map.prototype.forEach(callbackfun(value,key,thisMap))` 메소드를 활용하면 간결하게 구현할 수 있다.
-    * __<특이사항>__ 카카오 겨울인턴십 코딩테스트(2020) [문제]](https://programmers.co.kr/learn/courses/30/lessons/60057) [[code]](https://github.com/ss-won/For-Coding-Test/blob/master/KaKao/%5BLevle2%5D%EB%AC%B8%EC%9E%90%EC%97%B4%20%EC%95%95%EC%B6%95.js)
+    * __<특이사항>__ 카카오 겨울인턴십 코딩테스트(2020) [[문제]](https://programmers.co.kr/learn/courses/30/lessons/60057) [[code]](https://github.com/ss-won/For-Coding-Test/blob/master/KaKao/%5BLevle2%5D%EB%AC%B8%EC%9E%90%EC%97%B4%20%EC%95%95%EC%B6%95.js)
 * 주어진 문서(단어별로 나뉘어진 배열)에서 특정 단어의 빈도를 구한다.
     [[javascript]](https://github.com/ss-won/For-Coding-Test/blob/master/Basic/Javascript/Algorithm_Basic_List/string6.js) 
     [[c++]]()
