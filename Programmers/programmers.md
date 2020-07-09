@@ -2,4 +2,5 @@
 
 ## Contents
 -   [Kakao](https://github.com/ss-won/For-Coding-Test/blob/master/Programmers/Kakao/kakao.md)
--   [SQL 고득점 Kit]()
+-   [코딩테스트 고득점 Kit](https://github.com/ss-won/For-Coding-Test/blob/master/Programmers/testKit)
+-   [SQL 고득점 Kit](https://github.com/ss-won/For-Coding-Test/blob/master/Programmers/sqlKit)
