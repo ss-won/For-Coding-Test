@@ -3,6 +3,13 @@
 | |높음|보통|낮음|
 |--|--|--|--|
 |출제율|❤️|💛|💙| 
+
+- [SELECT](readme.md#SELECT)
+- [SUM/MAX/MIN](readme.md#SUM/MAX/MIN)
+- [GROUP BY](readme.md#GROUP_BY)
+- [IS NULL](readme.md#IS_NULL)
+- __JOIN__(readme.md#JOIN)
+- STRING, DATE(readme.md#STRING,_DATE)
 <br/>
 
 ## SELECT💙
