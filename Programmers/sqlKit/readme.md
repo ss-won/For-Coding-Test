@@ -5,11 +5,11 @@
 |출제율|❤️|💛|💙| 
 
 - [SELECT](readme.md#SELECT)
-- [SUM/MAX/MIN](readme.md#SUM/MAX/MIN)
-- [GROUP BY](readme.md#GROUP_BY)
-- [IS NULL](readme.md#IS_NULL)
-- __JOIN__(readme.md#JOIN)
-- STRING, DATE(readme.md#STRING,_DATE)
+- [SUM/MAX/MIN](readme.md#SUMMAXMIN)
+- [GROUP BY](readme.md#GROUP-BY)
+- [IS NULL](readme.md#IS-NULL)
+- [__JOIN__](readme.md#JOIN)
+- [STRING, DATE](readme.md#STRING,-DATE)
 <br/>
 
 ## SELECT💙
