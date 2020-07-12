@@ -9,7 +9,7 @@
 - [GROUP BY](readme.md#GROUP-BY)
 - [IS NULL](readme.md#IS-NULL)
 - [__JOIN__](readme.md#JOIN)
-- [STRING, DATE](readme.md#STRING,-DATE)
+- [STRING, DATE](readme.md#STRING-DATE)
 <br/>
 
 ## SELECT💙
