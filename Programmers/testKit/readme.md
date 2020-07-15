@@ -4,16 +4,16 @@
 |--|--|--|--|
 |출제율|❤️|💛|💙| 
 
-- [__HASH__](readme.md#HASH)
-- [STACK/QUEUE](readme.md#STACKQUEUE)
-- [HEAP](readme.md#HEAP)
+- [__HASH__](readme.md#HASH-)
+- [STACK/QUEUE](readme.md#STACKQUEUE-)
+- [HEAP](readme.md#HEAP-)
 - [__SORT__](readme.md#SORT)
-- [__BRUTE-FORCE__](readme.md#BRUTE-FORCE)
-- [GREEDY](readme.md#GREEDY)
-- [DYNAMIC PROGRAMMING](readme.md#DYNAMIC-PROGRAMMING)
-- [__BFS/DFS__](readme.md#BFSDFS)
-- [BINARY SEARCH](readme.md#BINARY-SEARCH)
-- [GRAPH](readme.md#GRAPH)
+- [__BRUTE-FORCE__](readme.md#BRUTE-FORCE-)
+- [GREEDY](readme.md#GREEDY-)
+- [DYNAMIC PROGRAMMING](readme.md#DYNAMIC-PROGRAMMING-)
+- [__BFS/DFS__](readme.md#BFSDFS-)
+- [BINARY SEARCH](readme.md#BINARY-SEARCH-)
+- [GRAPH](readme.md#GRAPH-)
 <br/>
 
 ## HASH ❤️
