@@ -4,7 +4,7 @@
 |--|--|--|--|
 |출제율|❤️|💛|💙| 
 
-- [__HASH__](readme.md#HASH-)
+- [__HASH__](readme.md#HASH)
 - [STACK/QUEUE](readme.md#STACKQUEUE-)
 - [HEAP](readme.md#HEAP-)
 - [__SORT__](readme.md#SORT)
@@ -16,7 +16,7 @@
 - [GRAPH](readme.md#GRAPH-)
 <br/>
 
-## HASH ❤️
+## HASH❤️
 > 풀이 & 개념 요점정리 보러가기 [준비중](readme.md)
 
 - __(LEVEL1)__ [완주하지 못한 선수](https://programmers.co.kr/learn/courses/30/lessons/42576)
@@ -28,6 +28,8 @@
 ## HEAP 💛
 
 ## SORT ❤️
+> 풀이 & 개념 요점정리 보러가기 [준비중](readme.md)
+
 - (__LEVEL1__) [K번째 수](https://programmers.co.kr/learn/courses/30/lessons/42748)
     - [js](https://github.com/ss-won/For-Coding-Test/blob/master/Programmers/testKit/sort/01.js)
 <hr>
