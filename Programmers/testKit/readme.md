@@ -4,7 +4,7 @@
 |--|--|--|--|
 |출제율|❤️|💛|💙| 
 
-- [__HASH__](readme.md#HASH-)
+- [__HASH__](readme.md#hash-%EF%B8%8F)
 - [STACK/QUEUE](readme.md#STACKQUEUE-)
 - [HEAP](readme.md#HEAP-)
 - [__SORT__](readme.md#SORT-)
