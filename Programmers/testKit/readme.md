@@ -4,10 +4,10 @@
 |--|--|--|--|
 |출제율|❤️|💛|💙| 
 
-- [__HASH__](readme.md#HASH)
+- [__HASH__](readme.md#HASH-)
 - [STACK/QUEUE](readme.md#STACKQUEUE-)
 - [HEAP](readme.md#HEAP-)
-- [__SORT__](readme.md#SORT)
+- [__SORT__](readme.md#SORT-)
 - [__BRUTE-FORCE__](readme.md#BRUTE-FORCE-)
 - [GREEDY](readme.md#GREEDY-)
 - [DYNAMIC PROGRAMMING](readme.md#DYNAMIC-PROGRAMMING-)
@@ -16,7 +16,7 @@
 - [GRAPH](readme.md#GRAPH-)
 <br/>
 
-## HASH❤️
+## HASH ❤️
 > 풀이 & 개념 요점정리 보러가기 [준비중](readme.md)
 
 - __(LEVEL1)__ [완주하지 못한 선수](https://programmers.co.kr/learn/courses/30/lessons/42576)
