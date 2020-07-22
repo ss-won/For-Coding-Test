@@ -1,3 +1,5 @@
+// # Linked-list 구현
+
 class Node {
     constructor(data, next=null){
         this._data = data;
@@ -13,47 +15,61 @@ class Node {
     }
 
     set setNext(next) {
-        this.next = next;
+        this._next = next;
     }
 }
 
- class Linkedlist {
-     //head, curr, tail
+class Linkedlist {
+     //head
     constructor(data=null){
-        this._head = data && new Node(data);
-        this._curr = data && this._head
+        this._head = (data!=null) ? new Node(data) : data;
     }
 
     get head() {
         return this._head;
     }
 
-    get curr() {
-        return this._curr;
+    //Method - isEmpty(role : checking linkedlist empty)
+    isEmpty() {
+        return (this._head===null) ? true : false;
     }
-
+    
     //Method - add(role : append node to linkedlist)
     add(data) {
-        if(!this._head){
+        if(this.isEmpty()){
             this._head = new Node(data);
         }
         else{
+            let curr = this._head;
             //head가 있다면 탐색 후 맨 끝에 추가
-            while(this._curr){
-                this._curr = this._curr.next;
+            while(curr.next){
+                curr = curr.next;
             }
-            this._curr.next = new Node(data);
+            curr.setNext = new Node(data);
+        }
+    }
+
+    //Method - print(role: print values ​​as they are in the linked dream)
+    print() {
+        let curr = this._head;
+        while(curr){
+            console.log(curr.data);
+            curr = curr.next;
         }
     }
 
  }
 
-//let node = new Node(3);
-//console.log(node.data, node.next);
+/* ============testing============*/
+let node = new Node(3);
+console.log(node.data, node.next);
+let linkedlist = new Linkedlist();
+console.log(linkedlist.isEmpty());
 
-let linkedlist = new Linkedlist(0);
-console.log(linkedlist.head);
+for(let i=0; i<10;i++){
+    linkedlist.add(i);
+}
+linkedlist.print();
+/*==============================*/
 
-linkedlist.add(3);
-console.log(linkedlist.head.next);
-console.log(linkedlist);
+export { Node, Linkedlist };
