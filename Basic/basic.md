@@ -85,10 +85,8 @@
 
 ## DataStructure
 ### Linked List
-```markdown
-Class 기반으로 구현한 Linkedlist : [js](https://github.com/ss-won/For-Coding-Test/blob/master/Basic/Javascript/Datastructure/linkedlist.js) <br>
-Class 기반으로 구현한 Double-linkedlist : [js](https://github.com/ss-won/For-Coding-Test/blob/master/Basic/Javascript/Datastructure/double_linkedlist.js)
-```
+>Class 기반으로 구현한 __Linkedlist__ : [js](https://github.com/ss-won/For-Coding-Test/blob/master/Basic/Javascript/Datastructure/linkedlist.js) <br>
+>Class 기반으로 구현한 __Double-linkedlist__ : [js](https://github.com/ss-won/For-Coding-Test/blob/master/Basic/Javascript/Datastructure/double_linkedlist.js)
 - Array 를 기반으로한 Linked List 구현
 - ArrayList 를 기반으로한 Linked List 구현
 - 첫번째 원소를 제거한다.
