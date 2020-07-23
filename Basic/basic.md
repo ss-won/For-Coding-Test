@@ -95,6 +95,11 @@
 - k번째 원소를 찾는다.
 - 회문인지 판단한다.
 
+### Hash Table
+- Hash Table 구현하기 [js](https://github.com/ss-won/For-Coding-Test/blob/master/Basic/Javascript/Datastructure/hashtable.js)
+- Hash Table을 Chaining 기법으로 구현하여 충돌 해결하기
+- Hash Table을 Linear Probling 기법으로 구현하여 충돌 해결하기
+
 ### Stack
 - Stack 을 사용하여 미로찾기 구현하기
 - Stack 두 개로 Queue 자료구조 구현하기
@@ -122,7 +127,7 @@
 - 많은 수 중 top 10을 구한다.
 
 ### Binary Heap
-Heapify 구현하기
+- Heapify 구현하기
 <hr>
 
 ## Sort and Search
