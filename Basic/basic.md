@@ -97,8 +97,8 @@
 
 ### Hash Table
 - Hash Table 구현하기 [js](https://github.com/ss-won/For-Coding-Test/blob/master/Basic/Javascript/Datastructure/hashtable.js)
-- Hash Table을 Chaining 기법으로 구현하여 충돌 해결하기
-- Hash Table을 Linear Probling 기법으로 구현하여 충돌 해결하기
+- Hash Table을 Chaining 기법으로 구현하여 충돌 해결하기 [js](https://github.com/ss-won/For-Coding-Test/blob/master/Basic/Javascript/Datastructure/ht_chaining.js)
+- Hash Table을 Linear Probling 기법으로 구현하여 충돌 해결하기 [js](https://github.com/ss-won/For-Coding-Test/blob/master/Basic/Javascript/Datastructure/ht_linear_probling.js)
 
 ### Stack
 - Stack 을 사용하여 미로찾기 구현하기
