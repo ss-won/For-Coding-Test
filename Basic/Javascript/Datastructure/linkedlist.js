@@ -1,4 +1,5 @@
 // # Linked-list 구현
+//** some methods aren 't implemented that because they will be revised in other problem **
 
 class Node {
     constructor(data, next=null){
@@ -61,15 +62,15 @@ class Linkedlist {
  }
 
 /* ============testing============*/
-let node = new Node(3);
-console.log(node.data, node.next);
-let linkedlist = new Linkedlist();
-console.log(linkedlist.isEmpty());
-
-for(let i=0; i<10;i++){
-    linkedlist.add(i);
-}
-linkedlist.print();
+//let node = new Node(3);
+//console.log(node.data, node.next);
+//let linkedlist = new Linkedlist();
+//console.log(linkedlist.isEmpty());
+//
+//for(let i=0; i<10;i++){
+//    linkedlist.add(i);
+//}
+//linkedlist.print();
 /*==============================*/
 
 export { Node, Linkedlist };
