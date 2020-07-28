@@ -41,15 +41,37 @@ class BST {
         this._root = TNode(data);
     }
 
+    // Method search - return boolean result to check data exists
     search(data) {
-
+        // check root is null or not
+        if (this.root.data === null){
+            console.log("Nonexistent error");
+            return false;
+        }
+        
+        // keep checking while find terminal node
+        let curr = this.root;
+        while(curr){
+            if(curr.data === data){
+                return true
+            }
+            else if(curr.data > data){
+                curr = curr.left_child;
+            }
+            else{
+                curr = curr.right_child;
+            }
+        }
+        return false;
     }
 
     insert(data) {
         // check root is null or not
         if(this.root.data === null)
             this._root = new TNode(data);
+
         // keep checking while find terminal node
+        // If it finds a suitable case for inserting data, it returns undefined.
         let curr = this.root;
         let parent = this.root
         while(curr){
@@ -84,8 +106,9 @@ class BST {
 
 /*
 ============Test=============
+*/
 let bst = new BST();
 console.log(bst.insert(3));
 console.log(bst.insert(8));
+console.log(bst.search(8));
 console.log(bst);
-*/
