@@ -116,7 +116,7 @@
 - Stack 두 개로 Queue를 구현한다.
 
 ### BinaryTree
-- Binary Search Tree 구현하기
+- Binary Search Tree 구현하기 [js](https://github.com/ss-won/For-Coding-Test/blob/master/Basic/Javascript/Datastructure/bst.js)
 - 바이너리 트리에서 최대값을 구한다.
 - 주어진 바이너리 트리가 균형 잡힌 트리인지 판별한다.
 - 오름차순으로 정렬된 배열을 Binary Search Tree로 변환한다.
