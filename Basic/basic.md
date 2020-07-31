@@ -127,7 +127,8 @@
 - 많은 수 중 top 10을 구한다.
 
 ### Binary Heap
-- Heapify 구현하기
+- Binary Heap 구현하기 [js](https://github.com/ss-won/For-Coding-Test/blob/master/Basic/Javascript/Datastructure/heap.js)
+- Heapify 구현하기 [js](https://github.com/ss-won/For-Coding-Test/blob/master/Basic/Javascript/Datastructure/heapify.js)
 <hr>
 
 ## Sort and Search
