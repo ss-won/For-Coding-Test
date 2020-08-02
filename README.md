@@ -8,12 +8,23 @@
 >   - ✍🏻 삼성 기출문제 [삼성 엑스퍼트 아카데미(SW Expert Academy)](https://swexpertacademy.com/main/main.do)
 ## Contents
 ### [기초 DS/PS](https://github.com/ss-won/For-Coding-Test/blob/master/Basic/basic.md)
-- 기초적인 DS, PS문제 풀이
+> 기초적인 DS, PS문제 풀이
+- Algorithm Basic List
+- Datastructure
+- Sort and Search
+- Famous Algorithm
+
 ### [백준 문제풀이](https://github.com/ss-won/For-Coding-Test/blob/master/Baekjun/baekjun.md)  
-- 유저들에게 인기가 많은 문제집, 대표 알고리즘 활용 유형
+> 유저들에게 인기가 많은 문제집, 대표 알고리즘 활용 유형
+- DFS/BFS
+
 ### [프로그래머스 문제풀이](https://github.com/ss-won/For-Coding-Test/blob/master/Programmers/programmers.md)  
-- 카카오, 프로그래머스 챌린지, 코딩테스트 코득점 Kit 위주
+> 카카오, 프로그래머스 챌린지, 코딩테스트 코득점 Kit 위주
+- Kakao 기출문제 모음
+- 코딩테스트 고득점 Kit
+- SQL 고득점 Kit
+
 ### [SWEA 문제풀이]()
-- D2-D4 문제풀이, A형 대비
+> D3-D5 문제풀이, A형 대비 (예정)
 
 
