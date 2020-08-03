@@ -91,7 +91,7 @@
 - ArrayList 를 기반으로한 Linked List 구현
 - 첫번째 원소를 제거한다. [js](https://github.com/ss-won/For-Coding-Test/blob/master/Basic/Javascript/Datastructure/link3.js) (__Linkedlist__)
 - 중복된 원소를 제거한다. [js](https://github.com/ss-won/For-Coding-Test/blob/master/Basic/Javascript/Datastructure/link4.js) (__Linkedlist__)
-- 역순으로 출력한다.
+- 역순으로 출력한다. [js](https://github.com/ss-won/For-Coding-Test/blob/master/Basic/Javascript/Datastructure/link5.js) (__DoubleLinkedlist__)
 - k번째 원소를 찾는다.
 - 회문인지 판단한다.
 
