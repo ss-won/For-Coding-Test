@@ -2,8 +2,8 @@
 // Double Linked list를 활용하였다.
 import { DoubleLinkedlist } from './double_linkedlist.js';
 
-function printReverse(obj){
-    let curr = obj.tail;
+DoubleLinkedlist.prototype.printReverse= function(){
+    let curr = this.tail;
     while(curr){
         console.log(curr.data);
         curr = curr.prev;
@@ -18,4 +18,4 @@ for(let i=0;i<10;i++){
 console.log("print");
 dll.print();
 console.log("reverse print");
-printReverse(dll);
+dll.printReverse();
