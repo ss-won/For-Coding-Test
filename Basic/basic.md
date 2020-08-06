@@ -136,6 +136,7 @@
 - Insertion sort를 구현한다. [js](https://github.com/ss-won/For-Coding-Test/blob/master/Basic/Javascript/SortandSearch/insertionsort.js)
 - Selection sort를 구현한다. [js](https://github.com/ss-won/For-Coding-Test/blob/master/Basic/Javascript/SortandSearch/selectionsort.js)
 - Quick sort를 구현한다. [js](https://github.com/ss-won/For-Coding-Test/blob/master/Basic/Javascript/SortandSearch/quicksort.js)
+- Merge sort를 구현한다. [js](https://github.com/ss-won/For-Coding-Test/blob/master/Basic/Javascript/SortandSearch/mergesort.js)
 - radix sort를 구현한다.
 
 ### Search
