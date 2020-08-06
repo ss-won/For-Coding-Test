@@ -140,7 +140,7 @@
 - radix sort를 구현한다.
 
 ### Search
-- binary search를 사용하여 O(log n)의 시간복잡도로 target을 찾는다.
+- binary search를 사용하여 O(log n)의 시간복잡도로 target을 찾는다. [js](https://github.com/ss-won/For-Coding-Test/blob/master/Basic/Javascript/SortandSearch/binarysearch.js)
 - 정렬된 2차원 배열에서 검색한다.
 
 ### bit
