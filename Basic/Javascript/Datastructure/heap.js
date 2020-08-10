@@ -8,11 +8,18 @@ function MaxHeap(){
     this.root = this.store[1];
 
     this.push = (data) => {
+        let push_data = [null,null];
+        if(typeof data === 'object'){
+            push_data = data;
+        }
+        else{
+            push_data[0] = data;
+        }
         if(this.store.length < 1){
             this.store = [null];
             this.root = this.store[1];
         }
-        this.store.push(data);
+        this.store.push(push_data);
         this.root = this.store[1];
         // + Reverse-Heapify
         mx_rv_heapify(this);
@@ -26,7 +33,7 @@ function MaxHeap(){
             // + Heapify
             mx_heapify(this);
         }
-        return _root;
+        return (_root[1]===null) ? _root[0] : _root;
     }
 }
 
@@ -35,13 +42,19 @@ function MinHeap(){
     'use strict';
      this.store = [null];
      this.root = this.store[1];
-
+    
      this.push = (data) => {
+            let push_data = [null, null];
+            if (typeof data === 'object') {
+                push_data = data;
+            } else {
+                push_data[0] = data;
+            }
             if (this.store.length < 1){
                 this.store = [null];
                 this.root = this.store[1];
             }
-            this.store.push(data);
+            this.store.push(push_data);
             this.root = this.store[1];
             // + Reverse-Heapify
             mn_rv_heapify(this);
@@ -53,7 +66,7 @@ function MinHeap(){
             this.store[1] = curr;
         // + Heapify
         mn_heapify(this);
-        return _root;
+        return (_root[1] === null) ? _root[0] : _root;
     }
 }
 

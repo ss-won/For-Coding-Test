@@ -6,7 +6,7 @@ const mx_rv_heapify = function (obj) {
     let cid = obj.store.length - 1;
     let pid = parseInt(cid / 2, 10);
     while (pid >= 1) {
-        if(obj.store[cid] > obj.store[pid]){
+        if(obj.store[cid][0] > obj.store[pid][0]){
             let tmp = obj.store[pid];
             obj.store[pid] = obj.store[cid];
             obj.store[cid] = tmp;
@@ -21,7 +21,7 @@ const mn_rv_heapify = function (obj) {
     let cid = obj.store.length - 1;
     let pid = parseInt(cid / 2, 10);
     while (pid >= 1) {
-        if (obj.store[pid] > obj.store[cid]) {
+        if (obj.store[pid][0] > obj.store[cid][0]) {
             let tmp = obj.store[pid];
             obj.store[pid] = obj.store[cid];
             obj.store[cid] = tmp;
@@ -43,7 +43,7 @@ const mx_heapify = function (obj) {
         // # left child는 있고, rightchild는 없을 때
         if(leftid < obj.store.length && rightid >= obj.store.length){
             //console.log("Case1");
-            if(obj.store[pid] < obj.store[leftid]){
+            if(obj.store[pid][0] < obj.store[leftid][0]){
                 tmp = obj.store[pid];
                 obj.store[pid] = obj.store[leftid];
                 obj.store[leftid] = tmp;
@@ -54,8 +54,8 @@ const mx_heapify = function (obj) {
         // # left child도 있고, right child도 있을 때
         else if(leftid < obj.store.length && rightid < obj.store.length){
             //console.log("Case2");
-            if(obj.store[leftid] > obj.store[rightid]){
-                if(obj.store[pid] < obj.store[leftid]){
+            if(obj.store[leftid][0] > obj.store[rightid][0]){
+                if(obj.store[pid][0] < obj.store[leftid][0]){
                     tmp = obj.store[pid];
                     obj.store[pid] = obj.store[leftid];
                     obj.store[leftid] = tmp;
@@ -64,7 +64,7 @@ const mx_heapify = function (obj) {
                 repeat = false;
             }
             else{
-                if(obj.store[pid] < obj.store[rightid]){
+                if(obj.store[pid][0] < obj.store[rightid][0]){
                     tmp = obj.store[pid];
                     obj.store[pid] = obj.store[rightid];
                     obj.store[rightid] = tmp;
@@ -91,7 +91,7 @@ const mn_heapify = function (obj) {
         let leftid = pid * 2;
         let rightid = pid * 2 + 1;
         if (leftid < obj.store.length && rightid >= obj.store.length) {
-            if (obj.store[pid] > obj.store[leftid]) {
+            if (obj.store[pid][0] > obj.store[leftid][0]) {
                 tmp = obj.store[pid];
                 obj.store[pid] = obj.store[leftid];
                 obj.store[leftid] = tmp;
@@ -99,8 +99,8 @@ const mn_heapify = function (obj) {
             }
             repeat = false;
         } else if (leftid < obj.store.length && rightid < obj.store.length) {
-            if (obj.store[leftid] < obj.store[rightid]) {
-                if (obj.store[pid] > obj.store[leftid]) {
+            if (obj.store[leftid][0] < obj.store[rightid][0]) {
+                if (obj.store[pid][0] > obj.store[leftid][0]) {
                     tmp = obj.store[pid];
                     obj.store[pid] = obj.store[leftid];
                     obj.store[leftid] = tmp;
@@ -109,7 +109,7 @@ const mn_heapify = function (obj) {
                 repeat = false;
             } 
             else {
-                if (obj.store[pid] > obj.store[rightid]) {
+                if (obj.store[pid][0] > obj.store[rightid][0]) {
                     tmp = obj.store[pid];
                     obj.store[pid] = obj.store[rightid];
                     obj.store[rightid] = tmp;

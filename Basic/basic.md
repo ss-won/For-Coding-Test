@@ -153,6 +153,7 @@
 ## Famous Algorithm
 - DFS [js](https://github.com/ss-won/For-Coding-Test/blob/master/Basic/Javascript/Famous_Algorithm/dfs.js)
 - BFS [js](https://github.com/ss-won/For-Coding-Test/blob/master/Basic/Javascript/Famous_Algorithm/bfs.js)
+- Dijkstra [js](https://github.com/ss-won/For-Coding-Test/blob/master/Basic/Javascript/Famous_Algorithm/dijkstra.js)
 - Karp_Rabin_Algorithm
 - KMP_Algorithm
 
