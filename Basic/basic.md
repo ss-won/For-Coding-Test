@@ -155,6 +155,7 @@
 - BFS [js](https://github.com/ss-won/For-Coding-Test/blob/master/Basic/Javascript/Famous_Algorithm/bfs.js)
 - Dijkstra [js](https://github.com/ss-won/For-Coding-Test/blob/master/Basic/Javascript/Famous_Algorithm/dijkstra.js)
 - Kruskal [js](https://github.com/ss-won/For-Coding-Test/blob/master/Basic/Javascript/Famous_Algorithm/kruskal.js)
+- Prim [js](https://github.com/ss-won/For-Coding-Test/blob/master/Basic/Javascript/Famous_Algorithm/prim.js)
 - Karp_Rabin_Algorithm
 - KMP_Algorithm
 
