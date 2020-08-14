@@ -12,7 +12,48 @@ const edges = [
     [11, 'F', 'G']
 ]
 
-function prim(edges, start){
+const graph = {
+    'A': { 'B': 7, 'D': 5 },
+    'B': { 'A': 7, 'C': 8, 'D': 9, 'E': 7 },
+    'C': { 'B': 8, 'E': 5 },
+    'D': { 'A': 5, 'B': 9, 'E': 7, 'F': 6 },
+    'E': { 'B': 7, 'C': 5, 'D': 7, 'F': 8, 'G': 9 },
+    'F': { 'D': 6, 'E': 8, 'G': 11 },
+    'G': { 'E': 9, 'F': 11 }
+}
+
+// #1: 정점 기준으로 탐색 (EVlogV)
+function prim1(graph, start){
+    const mst = [], adj = {};
+    const nodes = new Priority_Queue();
+    let total = 0;
+
+    for(let v of Object.keys(graph)){
+        nodes.push([Number.POSITIVE_INFINITY, v]);
+    }
+    nodes.set(start, 0);//O(VlogV)
+    adj[start] = start;
+    
+    // while -> O(VlogV)
+    while(!nodes.empty()){
+        console.log(nodes.heapq);
+        let [cw, cv] = nodes.pop();
+        mst.push([adj[cv], cv, cw]);
+        total += cw;
+        // for -> O(EVlogV)
+        for(let [vt, wt] of Object.entries(graph[cv])){
+            if(nodes.get(vt) !== undefined && nodes.get(vt) > wt){
+                nodes.set(vt, wt);//O(VlogV)
+                adj[vt] = cv;
+            }
+        }
+        
+    }
+    return [mst, total];
+}
+
+// #2 간선 기준으로 탐색 (ElogE)
+function prim2(edges, start){
     const mst = [];
     const adj = {};
     const con_nodes = new Set();
@@ -46,9 +87,24 @@ function prim(edges, start){
     return mst;
 }
 
+
 // @ Test
-console.log(prim(edges, 'A'));
+console.log(prim1(graph, 'A'));
+console.log(prim2(edges, 'A'));
+
 /* 
+[
+    [
+        ['A', 'A', 0],
+        ['A', 'D', 5],
+        ['D', 'F', 6],
+        ['D', 'E', 7],
+        ['E', 'C', 5],
+        ['A', 'B', 7],
+        ['E', 'G', 9]
+    ],
+    39
+]
 [
     [5, 'A', 'D],
     [6, 'D', 'F'],

@@ -1,5 +1,7 @@
 //# Priority-Queue 구현하기(heap 자료구조 이용)
 import { MaxHeap, MinHeap } from '../Datastructure/heap.js';
+import { mx_rv_heapify, mn_rv_heapify, mx_heapify, mn_heapify } from './heapify.js';
+
 // less : MaxHeap, greater : MinHeap
 function Priority_Queue(stand='greater'){
 
@@ -38,6 +40,57 @@ function Priority_Queue(stand='greater'){
     // # Method pop : remove a front element in priority queue and return it.
     this.pop = () => {
         return this.heapq.pop();
+    }
+
+    this.set = (key, newdata) => {
+        let cur = 1;
+        while(cur <= this.size()){
+            if(this.heapq.store[cur][1] === key){
+                this.heapq.store[cur][0] = newdata;
+                
+                if( stand === 'greater'){
+                    let cid = cur;
+                    let pid = parseInt(cid / 2, 10);
+                    while (pid >= 1) {
+                        if (this.heapq.store[pid][0] > this.heapq.store[cid][0]) {
+                            let tmp = this.heapq.store[pid];
+                            this.heapq.store[pid] = this.heapq.store[cid];
+                            this.heapq.store[cid] = tmp;
+                        }
+                        cid = pid;
+                        pid = parseInt(cid / 2, 10);
+                    }
+                    this.heapq.root = this.heapq.store[1];
+                }
+                else {
+                    let cid = cur;
+                    let pid = parseInt(cid / 2, 10);
+                    while (pid >= 1) {
+                        if (this.heapq.store[cid][0] > this.heapq.store[pid][0]) {
+                            let tmp = this.heapq.store[pid];
+                            this.heapq.store[pid] = this.heapq.store[cid];
+                            this.heapq.store[cid] = tmp;
+                        }
+                        cid = pid;
+                        pid = parseInt(cid / 2, 10);
+                    }
+                    this.heapq.root = this.heapq.store[1];
+                }
+            }
+            cur++;
+        }
+        return false;
+    }
+
+    this.get = (key) => {
+        let cur = 1;
+        while(cur <= this.size()){
+            if(this.heapq.store[cur][1] === key){
+                return this.heapq.store[cur][0];
+            }
+            cur++;
+        }
+        return undefined;
     }
 
 }
