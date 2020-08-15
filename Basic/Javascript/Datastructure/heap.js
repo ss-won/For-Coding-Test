@@ -22,7 +22,7 @@ function MaxHeap(){
         this.store.push(push_data);
         this.root = this.store[1];
         // + Reverse-Heapify
-        mx_rv_heapify(this);
+        mx_rv_heapify(this, this.store.length - 1);
     }
 
     this.pop = () => {
@@ -57,7 +57,7 @@ function MinHeap(){
             this.store.push(push_data);
             this.root = this.store[1];
             // + Reverse-Heapify
-            mn_rv_heapify(this);
+            mn_rv_heapify(this, this.store.length - 1);
      }
     this.pop = () => {
         const _root = this.root;

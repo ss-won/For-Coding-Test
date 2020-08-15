@@ -49,32 +49,10 @@ function Priority_Queue(stand='greater'){
                 this.heapq.store[cur][0] = newdata;
                 
                 if( stand === 'greater'){
-                    let cid = cur;
-                    let pid = parseInt(cid / 2, 10);
-                    while (pid >= 1) {
-                        if (this.heapq.store[pid][0] > this.heapq.store[cid][0]) {
-                            let tmp = this.heapq.store[pid];
-                            this.heapq.store[pid] = this.heapq.store[cid];
-                            this.heapq.store[cid] = tmp;
-                        }
-                        cid = pid;
-                        pid = parseInt(cid / 2, 10);
-                    }
-                    this.heapq.root = this.heapq.store[1];
+                    mn_rv_heapify(this.heapq, cur);
                 }
                 else {
-                    let cid = cur;
-                    let pid = parseInt(cid / 2, 10);
-                    while (pid >= 1) {
-                        if (this.heapq.store[cid][0] > this.heapq.store[pid][0]) {
-                            let tmp = this.heapq.store[pid];
-                            this.heapq.store[pid] = this.heapq.store[cid];
-                            this.heapq.store[cid] = tmp;
-                        }
-                        cid = pid;
-                        pid = parseInt(cid / 2, 10);
-                    }
-                    this.heapq.root = this.heapq.store[1];
+                    mx_rv_heapify(this.heapq, cur);
                 }
             }
             cur++;
