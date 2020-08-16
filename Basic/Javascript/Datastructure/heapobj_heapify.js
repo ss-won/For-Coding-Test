@@ -54,7 +54,6 @@ const mx_heapify = function (obj) {
                 obj.nodes[lck] = pid;
                 pid = leftid;
             }
-            repeat = false;
         }
         // # left child도 있고, right child도 있을 때
         else if (leftid < obj.store.length && rightid < obj.store.length) {
@@ -65,25 +64,22 @@ const mx_heapify = function (obj) {
                     obj.nodes[pk] = leftid;
                     obj.nodes[lck] = pid;
                     pid = leftid;
+                    continue;
                 }
-                repeat = false;
             } else {
                 if (pv < rcv) {
                     swap(obj.store, pid, rightid);
                     obj.nodes[pk] = rightid;
                     obj.nodes[rck] = pid;
                     pid = rightid;
+                    continue;
                 }
-                repeat = false;
             }
         }
         // # right child만 있을 때(오류), child가 없는 경우(터미널 노드)
-        else {
-            //console.log("Case3");
-            repeat = false;
-        }
+        //console.log("Case3");
+        repeat = false;
     }
-    obj.root = obj.store[1];
 };
 
 const mn_heapify = function (obj) {
@@ -103,7 +99,6 @@ const mn_heapify = function (obj) {
                 obj.nodes[lck] = pid;
                 pid = leftid;
             }
-            repeat = false;
         } else if (leftid < obj.store.length && rightid < obj.store.length) {
             if (lcv < rcv) {
                 if (pv > lcv) {
@@ -111,22 +106,21 @@ const mn_heapify = function (obj) {
                     obj.nodes[pk] = leftid;
                     obj.nodes[lck] = pid;
                     pid = leftid;
+                    continue;
                 }
-                repeat = false;
             } else {
                 if (pv > rcv) {
                     swap(obj.store, pid, rightid);
                     obj.nodes[pk] = rightid;
                     obj.nodes[rck] = pid;
                     pid = rightid;
+                    continue;
                 }
-                repeat = false;
             }
-        } else {
-            repeat = false;
         }
+        // # right child만 있을 때(오류), child가 없는 경우(터미널 노드)
+        repeat = false;
     }
-    obj.root = obj.store[1];
 };
 
 export { mx_rv_heapify, mn_rv_heapify, mx_heapify, mn_heapify };

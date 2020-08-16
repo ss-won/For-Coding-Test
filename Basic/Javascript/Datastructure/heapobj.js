@@ -7,8 +7,13 @@ function Heapobj(stand='greater'){
     this.root = this.store[1];
     this.nodes = {};
 
-    this.get = () => {
-        return this.store;
+    // return node's weight value.
+    this.get = (key) => {
+        const position = this.nodes[key];
+        if(position)
+            return this.store[position][1];
+        else
+            return;
     }
 
     //O(logN) -> rv_heapify
@@ -38,25 +43,28 @@ function Heapobj(stand='greater'){
         delete this.nodes[_root[0]];
         if (this.store.length > 1) {
             this.store[1] = curr;
+            this.nodes[curr[0]] = 1;
             // # heapify & nodes[key] 값 업데이트
             if (stand === 'greater')
                 mn_heapify(this);
             else
                 mx_heapify(this);
         }
-        return (_root[1] === null) ? _root[0] : _root;
+        this.root = this.store[1];
+        return _root;
     }
 
     this.isempty = () => {
-        (Object.keys(this.nodes).length == 0) ? true : false;
+        return (this.store.length <= 1) ? true : false;
     }
 }
 
 export default Heapobj;
+
 /*
 // @ Test
 let ex = new Heapobj()
-console.log(ex);
+console.log(ex.isempty());
 ex.set('a',1);
 console.log(ex);
 ex.set('a', 3);
@@ -65,4 +73,5 @@ ex.set('b', 2);
 console.log(ex);
 console.log(ex.pop()); // ['b', 2]
 console.log(ex);
+console.log(ex.get('a'));
 */

@@ -2,6 +2,7 @@
 // 패스트캠퍼스 강의(나동빈 강사님)를 수강하고, 파이썬으로 작성했던 구문을 -> 자바스크립트로 작성하였습니다.
 // graph reference : https://www.fun-coding.org/Chapter20-prim-live.html
 import Priority_Queue from '../Datastructure/priorityqueue.js';
+import Heapobj from '../Datastructure/heapobj.js';
 
 const edges = [
     [7, 'A', 'B'], [5, 'A', 'D'],
@@ -52,8 +53,41 @@ function prim1(graph, start){
     return [mst, total];
 }
 
+// #2: 정점 기준으로 탐색 (VlogE)
+function prim2(graph, start){
+    const mst = [];
+    const adj = {};
+    const candidates = new Heapobj();
+    let total_weight = 0;
+
+    //O(VlogV)
+    for(let v of Object.keys(graph)){
+        candidates.set(v, Number.POSITIVE_INFINITY);
+        adj[v] = null;
+    }
+    //O(logV)
+    candidates.set(start, 0);
+    adj[start] = start;
+
+    //O(ElogV)
+    while(!candidates.isempty()){
+        let [vertex, weight] = candidates.pop();
+        mst.push([adj[vertex], vertex, weight]);
+        total_weight += weight;
+        //내부 for문에 의해 V에 연결된 총 E만큼 반복  = O(E)
+        for(let [v, w] of Object.entries(graph[vertex])){
+            if(candidates.nodes[v] && candidates.get(v) > w){
+                // V가 set될때마다, heapify 연산 발생 = O(logV)
+                candidates.set(v, w);
+                adj[v] = vertex;
+            }
+        }
+    }
+    return { 'mst': mst, 'weight': total_weight };
+}
+
 // #2 간선 기준으로 탐색 (ElogE)
-function prim2(edges, start){
+function prim3(edges, start){
     const mst = [];
     const adj = {};
     const con_nodes = new Set();
@@ -89,8 +123,9 @@ function prim2(edges, start){
 
 
 // @ Test
-console.log(prim1(graph, 'A'));
-console.log(prim2(edges, 'A'));
+//console.log(prim1(graph, 'A'));
+//console.log(prim2(graph, 'A'));
+//console.log(prim3(edges, 'A'));
 
 /* 
 [
@@ -105,6 +140,18 @@ console.log(prim2(edges, 'A'));
     ],
     39
 ]
+{
+    mst: [
+        ['A', 'A', 0],
+        ['A', 'D', 5],
+        ['D', 'F', 6],
+        ['D', 'E', 7],
+        ['E', 'C', 5],
+        ['A', 'B', 7],
+        ['E', 'G', 9]
+    ],
+    weight: 39
+}
 [
     [5, 'A', 'D],
     [6, 'D', 'F'],
