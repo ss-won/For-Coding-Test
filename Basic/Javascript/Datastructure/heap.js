@@ -20,9 +20,9 @@ function MaxHeap(){
             this.root = this.store[1];
         }
         this.store.push(push_data);
-        this.root = this.store[1];
         // + Reverse-Heapify
         mx_rv_heapify(this, this.store.length - 1);
+        this.root = this.store[1];
     }
 
     this.pop = () => {
@@ -33,6 +33,7 @@ function MaxHeap(){
             // + Heapify
             mx_heapify(this);
         }
+        this.root = this.store[1];
         return (_root[1]===null) ? _root[0] : _root;
     }
 }
@@ -55,9 +56,9 @@ function MinHeap(){
                 this.root = this.store[1];
             }
             this.store.push(push_data);
-            this.root = this.store[1];
             // + Reverse-Heapify
             mn_rv_heapify(this, this.store.length - 1);
+            this.root = this.store[1];
      }
     this.pop = () => {
         const _root = this.root;
@@ -66,6 +67,7 @@ function MinHeap(){
             this.store[1] = curr;
         // + Heapify
         mn_heapify(this);
+        this.root = this.store[1];
         return (_root[1] === null) ? _root[0] : _root;
     }
 }
