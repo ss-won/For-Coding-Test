@@ -1,10 +1,12 @@
 // # Double Linked-list 구현
 //** some methods aren 't implemented that because they will be revised in other problem **
 
-import { Node } from './linkedlist.js';
+import {
+    Node
+} from './linkedlist.js';
 
 class DNode extends Node {
-    constructor(data, prev=null, next = null) {
+    constructor(data, prev = null, next = null) {
         super(data, next);
         this._prev = prev;
     }
@@ -16,7 +18,7 @@ class DNode extends Node {
     set setPrev(prev) {
         this._prev = prev;
     }
-    
+
 }
 
 class DoubleLinkedlist {
@@ -47,7 +49,7 @@ class DoubleLinkedlist {
         } else {
             let curr = this._head;
             //head가 있다면 탐색 후 맨 끝에 추가
-            while (curr.next) 
+            while (curr.next)
                 curr = curr.next;
             let newNode = new DNode(data);
             curr.setNext = newNode;

@@ -93,7 +93,7 @@
 - 중복된 원소를 제거한다. [js](https://github.com/ss-won/For-Coding-Test/blob/master/Basic/Javascript/Datastructure/link4.js) (__Linkedlist__)
 - 역순으로 출력한다. [js](https://github.com/ss-won/For-Coding-Test/blob/master/Basic/Javascript/Datastructure/link5.js) (__DoubleLinkedlist__)
 - k번째 원소를 찾는다. [js](https://github.com/ss-won/For-Coding-Test/blob/master/Basic/Javascript/Datastructure/link6.js) (__Linkedlist__, __DoubleLinkedlist__)
-- 회문인지 판단한다.
+- 회문인지 판단한다. [js](https://github.com/ss-won/For-Coding-Test/blob/master/Basic/Javascript/Datastructure/link7.js) (__DoubleLinkedlist__)
 
 ### Hash Table
 - Hash Table 구현하기 [js](https://github.com/ss-won/For-Coding-Test/blob/master/Basic/Javascript/Datastructure/hashtable.js)
