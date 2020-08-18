@@ -35,15 +35,15 @@ function prim1(graph, start){
     nodes.set(start, 0);//O(VlogV)
     adj[start] = start;
     
-    // while -> O(VlogV)
+    // while -> O(EVlogV)
     while(!nodes.empty()){
         console.log(nodes.heapq);
         let [cw, cv] = nodes.pop();
         mst.push([adj[cv], cv, cw]);
         total += cw;
-        // for -> O(EVlogV)
+        // for -> O(E) * O(VlogV)
         for(let [vt, wt] of Object.entries(graph[cv])){
-            if(nodes.get(vt) !== undefined && nodes.get(vt) > wt){
+            if(nodes.get(vt) !== undefined && nodes.get(vt) > wt){//O(logV)
                 nodes.set(vt, wt);//O(VlogV)
                 adj[vt] = cv;
             }
