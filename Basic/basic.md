@@ -85,10 +85,9 @@
 
 ## DataStructure
 ### Linked List
->Class 기반으로 구현한 __Linkedlist__ : [js](https://github.com/ss-won/For-Coding-Test/blob/master/Basic/Javascript/Datastructure/linkedlist.js) <br>
->Class 기반으로 구현한 __Double-linkedlist__ : [js](https://github.com/ss-won/For-Coding-Test/blob/master/Basic/Javascript/Datastructure/double_linkedlist.js)
 - Array 를 기반으로한 Linked List 구현
-- ArrayList 를 기반으로한 Linked List 구현
+    - Class 기반으로 구현한 __Linkedlist__ : [js](https://github.com/ss-won/For-Coding-Test/blob/master/Basic/Javascript/Datastructure/linkedlist.js)
+    - Class 기반으로 구현한 __Double-linkedlist__ : [js](https://github.com/ss-won/For-Coding-Test/blob/master/Basic/Javascript/Datastructure/double_linkedlist.js)
 - 첫번째 원소를 제거한다. [js](https://github.com/ss-won/For-Coding-Test/blob/master/Basic/Javascript/Datastructure/link3.js) (__Linkedlist__)
 - 중복된 원소를 제거한다. [js](https://github.com/ss-won/For-Coding-Test/blob/master/Basic/Javascript/Datastructure/link4.js) (__Linkedlist__)
 - 역순으로 출력한다. [js](https://github.com/ss-won/For-Coding-Test/blob/master/Basic/Javascript/Datastructure/link5.js) (__DoubleLinkedlist__)
@@ -102,10 +101,8 @@
 
 ### Stack
 - Stack 을 사용하여 미로찾기 구현하기
-- Stack 두 개로 Queue 자료구조 구현하기
 - Stack 으로 괄호 유효성 체크 코드 구현하기
-- Array를 사용하여 Stack을 구현한다. 
-- ArrayList를 사용하여 Stack을 구현한다.
+- Array를 사용하여 Stack을 구현한다. [js](https://github.com/ss-won/For-Coding-Test/blob/master/Basic/Javascript/Datastructure/stack.js)
 - Stack에 저장된 값들 중 최소값을 반환하는 minStack() 함수를 구현한다.
 - Stack 자료구조를 사용하여 회문을 판별한다.
 - 괄호의 유효성을 체크한다.
