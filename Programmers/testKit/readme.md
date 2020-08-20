@@ -21,6 +21,8 @@
 
 - __(LEVEL1)__ [완주하지 못한 선수](https://programmers.co.kr/learn/courses/30/lessons/42576)
     - [js](https://github.com/ss-won/For-Coding-Test/blob/master/Programmers/testKit/hash/01.js)
+- __(LEVEL2)__ [전화번호 목록](https://programmers.co.kr/learn/courses/30/lessons/42577)
+    - [py](https://github.com/ss-won/For-Coding-Test/blob/master/Programmers/testKit/hash/02.py)
 <hr>
 
 ## STACK/QUEUE 💛
