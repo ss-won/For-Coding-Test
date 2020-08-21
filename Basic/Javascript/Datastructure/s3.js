@@ -3,26 +3,25 @@
 
 function Stack(){
     this.store = Array(0);
+    this.top = null;
 
     this.push = (val) => {
-        return this.store.push(val);
+        this.store.push(val);
+        this.top = this.store[this.store.length - 1];
     };
 
     this.pop = () => {
-        if(!this.isEmpty())
-            return this.store.pop();
+        if(!this.isEmpty()){
+            let returned = this.store.pop();
+            this.top = this.store[this.store.length - 1]
+            return returned;
+        }
         console.log("Stack is empty!");
         return false;
     };
 
     this.isEmpty = () => {
         return (this.store.length === 0) ? true: false;
-    }
-
-    this.top = () => {
-        if(!this.isEmpty())
-            return this.store[this.store.length-1];
-        return null;
     }
 } 
 
@@ -33,7 +32,7 @@ export { Stack };
 const stack = new Stack();
 stack.push(3);
 stack.push(15);
-console.log(stack.top());
+console.log(stack.top);
 console.log(stack.isEmpty());
 console.log(stack);
 */
