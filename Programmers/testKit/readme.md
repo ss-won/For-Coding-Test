@@ -23,6 +23,10 @@
     - [js](https://github.com/ss-won/For-Coding-Test/blob/master/Programmers/testKit/hash/01.js)
 - __(LEVEL2)__ [전화번호 목록](https://programmers.co.kr/learn/courses/30/lessons/42577)
     - [py](https://github.com/ss-won/For-Coding-Test/blob/master/Programmers/testKit/hash/02.py)
+- __(LEVEL2)__ [위장](https://programmers.co.kr/learn/courses/30/lessons/42578)
+    - [js](https://github.com/ss-won/For-Coding-Test/blob/master/Programmers/testKit/hash/03.js)
+- __(LEVEL3)__ [베스트앨범](https://programmers.co.kr/learn/courses/30/lessons/42579)
+    - [js](https://github.com/ss-won/For-Coding-Test/blob/master/Programmers/testKit/hash/04.js)
 <hr>
 
 ## STACK/QUEUE 💛
