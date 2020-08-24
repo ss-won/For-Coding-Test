@@ -32,6 +32,8 @@
 ## STACK/QUEUE 💛
 - __(LEVEL2)__ [주식가격](https://programmers.co.kr/learn/courses/30/lessons/42584)
     - [py](https://github.com/ss-won/For-Coding-Test/blob/master/Programmers/testKit/stack,queue/01.py)
+- __(LEVEL2)__ [기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586)
+    - [js](https://github.com/ss-won/For-Coding-Test/blob/master/Programmers/testKit/stack,queue/02.js)
 <hr>
 
 ## HEAP 💛
