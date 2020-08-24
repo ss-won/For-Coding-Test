@@ -103,9 +103,8 @@
 - Stack 을 사용하여 미로찾기 구현하기
 - Stack 으로 괄호 유효성 체크 코드 구현하기
 - Array를 사용하여 Stack을 구현한다. [js](https://github.com/ss-won/For-Coding-Test/blob/master/Basic/Javascript/Datastructure/s3.js)
-- Stack에 저장된 값들 중 최소값을 반환하는 minStack() 함수를 구현한다.
+- Stack에 저장된 값들 중 최소값을 반환하는 minStack() 함수를 구현한다. [js](https://github.com/ss-won/For-Coding-Test/blob/master/Basic/Javascript/Datastructure/s4js)
 - Stack 자료구조를 사용하여 회문을 판별한다.
-- 괄호의 유효성을 체크한다.
 
 ### Queue
 - Array를 사용하여 Stack을 구현한다.

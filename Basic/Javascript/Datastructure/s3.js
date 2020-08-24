@@ -23,6 +23,10 @@ function Stack(){
     this.isEmpty = () => {
         return (this.store.length === 0) ? true: false;
     }
+
+    this.size = () => {
+        return (this.store.length);
+    }
 } 
 
 export { Stack };
