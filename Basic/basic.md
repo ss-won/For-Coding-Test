@@ -90,7 +90,7 @@
 - Stack 자료구조를 사용하여 회문을 판별한다. [js](https://github.com/ss-won/For-Coding-Test/blob/master/Basic/Javascript/Datastructure/s5.js)
 
 ### Queue
-- Array를 사용하여 Stack을 구현한다.
+- Array를 사용하여 Queue를 구현한다. [js](https://github.com/ss-won/For-Coding-Test/blob/master/Basic/Javascript/Datastructure/q1.js)
 - Queue 를 사용하여 Heap 자료구조 구현하기 
 - Stack을 사용하여 queue를 stack처럼 만든다.
 - Stack 두 개로 Queue를 구현한다. [js](https://github.com/ss-won/For-Coding-Test/blob/master/Basic/Javascript/Datastructure/q4.js)
