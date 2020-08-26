@@ -34,6 +34,8 @@
     - [py](https://github.com/ss-won/For-Coding-Test/blob/master/Programmers/testKit/stack,queue/01.py)
 - __(LEVEL2)__ [기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586)
     - [js](https://github.com/ss-won/For-Coding-Test/blob/master/Programmers/testKit/stack,queue/02.js)
+- __(LEVEL2)__ [다리를 지나는 트럭](https://programmers.co.kr/learn/courses/30/lessons/42583)
+    - [js](https://github.com/ss-won/For-Coding-Test/blob/master/Programmers/testKit/stack,queue/03.js)
 <hr>
 
 ## HEAP 💛
