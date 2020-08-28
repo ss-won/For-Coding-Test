@@ -105,7 +105,7 @@
 ### Priority Queue
 - Priority queue 구현하기. [js](https://github.com/ss-won/For-Coding-Test/blob/master/Basic/Javascript/Datastructure/priorityqueue.js)
 - Priority queue를 사용하여 heap sort를 하라. [js](https://github.com/ss-won/For-Coding-Test/blob/master/Basic/Javascript/Datastructure/heapsort.js)
-- 많은 수 중 top 10을 구한다.
+- 많은 수 중 top 10을 구한다. [js](https://github.com/ss-won/For-Coding-Test/blob/master/Basic/Javascript/Datastructure/pq3.js)
 
 ### Binary Heap
 - Binary Heap 구현하기 [js](https://github.com/ss-won/For-Coding-Test/blob/master/Basic/Javascript/Datastructure/heap.js)
