@@ -16,6 +16,9 @@
 
 ### [백준 문제풀이](https://github.com/ss-won/For-Coding-Test/blob/master/Baekjun/baekjun.md)  
 > 유저들에게 인기가 많은 문제집, 대표 알고리즘 활용 유형
+- Gold
+- Silver
+- Bronze
 - DFS/BFS
 
 ### [프로그래머스 문제풀이](https://github.com/ss-won/For-Coding-Test/blob/master/Programmers/programmers.md)  

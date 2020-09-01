@@ -6,7 +6,7 @@
 - G2
 - G3
 - G4
-    - 1715(카드정렬하기) [문제](https://www.acmicpc.net/problem/1715) | [py](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjun/Gold/1715.py)
-    - 5427(불) [문제](https://www.acmicpc.net/problem/5427) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjun/Gold/5427.cpp)
-    - 9466(텀 프로젝트) [문제](https://www.acmicpc.net/problem/9466) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjun/Gold/9466.cpp)
+    - 1715(카드정렬하기) [문제](https://www.acmicpc.net/problem/1715) | [py](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjun/Gold/code/1715.py)
+    - 5427(불) [문제](https://www.acmicpc.net/problem/5427) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjun/Gold/code/5427.cpp)
+    - 9466(텀 프로젝트) [문제](https://www.acmicpc.net/problem/9466) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjun/Gold/code/9466.cpp)
 - G5
