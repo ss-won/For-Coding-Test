@@ -10,6 +10,9 @@
     - 16500(문자열 판별) [문제](https://www.acmicpc.net/problem/16500) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjun/Silver/code/16500.cpp)
     - 11724(연결 요소의 개수) [문제](https://www.acmicpc.net/problem/11724) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjun/Silver/code/11724.cpp)
     - 11279(최대 힙) [문제](https://www.acmicpc.net/problem/11279) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjun/Silver/code/11279.cpp)
+    - 1012(유기농 배추) [문제](https://www.acmicpc.net/problem/1012) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjun/Silver/code/1012.cpp)
+    - 1260(DFS와 BFS) [문제](https://www.acmicpc.net/problem/1260) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjun/Silver/code/1260.cpp)
+    - 1931(회의실 배정) [문제](https://www.acmicpc.net/problem/1931) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjun/Silver/code/1931.cpp)
 - S3
 - S4
 - S5
