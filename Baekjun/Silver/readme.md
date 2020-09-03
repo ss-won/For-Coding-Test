@@ -13,6 +13,7 @@
     - 1012(유기농 배추) [문제](https://www.acmicpc.net/problem/1012) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjun/Silver/code/1012.cpp)
     - 1260(DFS와 BFS) [문제](https://www.acmicpc.net/problem/1260) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjun/Silver/code/1260.cpp)
     - 1931(회의실 배정) [문제](https://www.acmicpc.net/problem/1931) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjun/Silver/code/1931.cpp)
+    - 1929(소수 구하기) [문제](https://www.acmicpc.net/problem/1929) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjun/Silver/code/1929.cpp)
 - S3
 - S4
 - S5
