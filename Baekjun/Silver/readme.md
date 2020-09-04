@@ -14,6 +14,7 @@
     - 1260(DFS와 BFS) [문제](https://www.acmicpc.net/problem/1260) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjun/Silver/code/1260.cpp)
     - 1931(회의실 배정) [문제](https://www.acmicpc.net/problem/1931) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjun/Silver/code/1931.cpp)
     - 1929(소수 구하기) [문제](https://www.acmicpc.net/problem/1929) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjun/Silver/code/1929.cpp)
+    - 1780(종이의 개수) [문제](https://www.acmicpc.net/problem/1780) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjun/Silver/code/1780.cpp)
 - S3
 - S4
 - S5
