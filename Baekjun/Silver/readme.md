@@ -6,6 +6,7 @@
     - 11403(경로 찾기) [문제](https://www.acmicpc.net/problem/11403) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjun/Silver/code/11403.cpp)
     - 11286(절댓값 힙) [문제](https://www.acmicpc.net/problem/11286) | [py](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjun/Silver/code/11286.py)
     - 1927(최소 힙) [문제](https://www.acmicpc.net/problem/1927) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjun/Silver/code/1927.cpp)
+    - 3005(크로스워드 퍼즐 쳐다보기) [문제](https://www.acmicpc.net/problem/3005) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjun/Silver/code/3005.cpp)
 - S2
     - 16500(문자열 판별) [문제](https://www.acmicpc.net/problem/16500) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjun/Silver/code/16500.cpp)
     - 11724(연결 요소의 개수) [문제](https://www.acmicpc.net/problem/11724) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjun/Silver/code/11724.cpp)
@@ -15,6 +16,8 @@
     - 1931(회의실 배정) [문제](https://www.acmicpc.net/problem/1931) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjun/Silver/code/1931.cpp)
     - 1929(소수 구하기) [문제](https://www.acmicpc.net/problem/1929) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjun/Silver/code/1929.cpp)
     - 1780(종이의 개수) [문제](https://www.acmicpc.net/problem/1780) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjun/Silver/code/1780.cpp)
+    - 5430(AC) [문제](https://www.acmicpc.net/problem/5430) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjun/Silver/code/5430.cpp)
+    - 10552(DOM) [문제](https://www.acmicpc.net/problem/10552) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjun/Silver/code/10552.cpp)
 - S3
 - S4
 - S5
