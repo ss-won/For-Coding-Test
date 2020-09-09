@@ -18,6 +18,8 @@
     - 1780(종이의 개수) [문제](https://www.acmicpc.net/problem/1780) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjun/Silver/code/1780.cpp)
     - 5430(AC) [문제](https://www.acmicpc.net/problem/5430) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjun/Silver/code/5430.cpp)
     - 10552(DOM) [문제](https://www.acmicpc.net/problem/10552) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjun/Silver/code/10552.cpp)
+    - 1141(접두사) [문제](https://www.acmicpc.net/problem/1141) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjun/Silver/code/1141.cpp)
 - S3
+    - 1449(수리공 항승) [문제](https://www.acmicpc.net/problem/1449) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjun/Silver/code/1449.cpp)
 - S4
 - S5
