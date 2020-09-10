@@ -45,6 +45,8 @@
 
 - (__LEVEL1__) [K번째 수](https://programmers.co.kr/learn/courses/30/lessons/42748)
     - [js](https://github.com/ss-won/For-Coding-Test/blob/master/Programmers/testKit/sort/01.js)
+- (__LEVEL2__) [가장 큰 수](https://programmers.co.kr/learn/courses/30/lessons/42746)
+    - [cpp](https://github.com/ss-won/For-Coding-Test/blob/master/Programmers/testKit/sort/02.cpp)
 <hr>
 
 ## BRUTE-FORCE ❤️
