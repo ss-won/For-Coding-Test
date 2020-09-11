@@ -21,5 +21,7 @@
     - 1141(접두사) [문제](https://www.acmicpc.net/problem/1141) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjun/Silver/code/1141.cpp)
 - S3
     - 1449(수리공 항승) [문제](https://www.acmicpc.net/problem/1449) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjun/Silver/code/1449.cpp)
+    - 1463(1로 만들기) [문제](https://www.acmicpc.net/problem/1463) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjun/Silver/code/1463.cpp)
+    - 1966(프린터 큐) [문제](https://www.acmicpc.net/problem/1966) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjun/Silver/code/1966.cpp)
 - S4
 - S5
