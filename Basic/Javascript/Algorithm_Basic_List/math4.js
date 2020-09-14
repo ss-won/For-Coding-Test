@@ -2,7 +2,7 @@
     TASK
     Fibonacci 를 계산하는 함수를 작성한다.
     [Reference] https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/algorithm/basicMath/Fibonacci.java
-    [피보나치를 푸는 여러가지 방법 by Baekjun] https://www.acmicpc.net/blog/view/28
+    [피보나치를 푸는 여러가지 방법 by Baekjoon] https://www.acmicpc.net/blog/view/28
     */
    //@Test
    const assert = require('assert').strict;

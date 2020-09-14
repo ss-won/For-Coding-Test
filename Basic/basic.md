@@ -42,7 +42,7 @@
 * Fibonacci 를 계산하는 함수를 작성한다.
     [[js]](https://github.com/ss-won/For-Coding-Test/blob/master/Basic/Javascript/Algorithm_Basic_List/math4.js) 
     * DP 재귀식을 구현할때는 반드시 `Memoization`과 함께 구현한다.
-    * [피보나치를 푸는 여러가지 방법 by Baekjun](https://www.acmicpc.net/blog/view/28)
+    * [피보나치를 푸는 여러가지 방법 by Baekjoon](https://www.acmicpc.net/blog/view/28)
 * 주어진 정수의 각 자리 수의 합을 구한다.
     [[js]](https://github.com/ss-won/For-Coding-Test/blob/master/Basic/Javascript/Algorithm_Basic_List/math5.js) 
     * `base % 10 = 1의 자리수`를 구할 수 있다는 점을 이용한다.
