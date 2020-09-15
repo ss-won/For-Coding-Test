@@ -13,3 +13,4 @@
     - 5427(불) [문제](https://www.acmicpc.net/problem/5427) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Gold/code/5427.cpp)
     - 9466(텀 프로젝트) [문제](https://www.acmicpc.net/problem/9466) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Gold/code/9466.cpp)
 - G5
+    - 10026(적록색약) [문제](https://www.acmicpc.net/problem/10026) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Gold/code/10026.cpp)
