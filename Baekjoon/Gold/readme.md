@@ -13,5 +13,8 @@
     - 1715(카드정렬하기) [문제](https://www.acmicpc.net/problem/1715) | [py](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Gold/code/1715.py)
     - 5427(불) [문제](https://www.acmicpc.net/problem/5427) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Gold/code/5427.cpp)
     - 9466(텀 프로젝트) [문제](https://www.acmicpc.net/problem/9466) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Gold/code/9466.cpp)
+    - 1717(집합의 표현) [문제](https://www.acmicpc.net/problem/1717) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Gold/code/1717.cpp)
+    - 1976(여행 가자) [문제](https://www.acmicpc.net/problem/1976) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Gold/code/1976.cpp)
+    - 2206(벽 부수고 이동하기) [문제](https://www.acmicpc.net/problem/2206) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Gold/code/2206.cpp)
 - G5
     - 10026(적록색약) [문제](https://www.acmicpc.net/problem/10026) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Gold/code/10026.cpp)
