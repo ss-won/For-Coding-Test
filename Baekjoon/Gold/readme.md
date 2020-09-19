@@ -18,3 +18,4 @@
     - 2206(벽 부수고 이동하기) [문제](https://www.acmicpc.net/problem/2206) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Gold/code/2206.cpp)
 - G5
     - 10026(적록색약) [문제](https://www.acmicpc.net/problem/10026) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Gold/code/10026.cpp)
+    - 1753(최단경로) [문제](https://www.acmicpc.net/problem/1753) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Gold/code/1753.cpp)
