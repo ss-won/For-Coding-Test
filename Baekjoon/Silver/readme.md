@@ -7,6 +7,10 @@
     - 11286(절댓값 힙) [문제](https://www.acmicpc.net/problem/11286) | [py](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Silver/code/11286.py)
     - 1927(최소 힙) [문제](https://www.acmicpc.net/problem/1927) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Silver/code/1927.cpp)
     - 3005(크로스워드 퍼즐 쳐다보기) [문제](https://www.acmicpc.net/problem/3005) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Silver/code/3005.cpp)
+    - 2178(미로 탐색) [문제](https://www.acmicpc.net/problem/2178) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Silver/code/2178.cpp)
+    - 2667(단지번호붙이기) [문제](https://www.acmicpc.net/problem/2667) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Silver/code/2667.cpp)
+    - 4889(안정적인 문자열) [문제](https://www.acmicpc.net/problem/4889) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Silver/code/4889.cpp)
+    - 7576(토마토) [문제](https://www.acmicpc.net/problem/7576) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Silver/code/7576.cpp)
 - S2
     - 16500(문자열 판별) [문제](https://www.acmicpc.net/problem/16500) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Silver/code/16500.cpp)
     - 11724(연결 요소의 개수) [문제](https://www.acmicpc.net/problem/11724) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Silver/code/11724.cpp)
