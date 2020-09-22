@@ -136,7 +136,7 @@
 - Dijkstra [js](https://github.com/ss-won/For-Coding-Test/blob/master/Basic/Javascript/Famous_Algorithm/dijkstra.js)
 - Kruskal [js](https://github.com/ss-won/For-Coding-Test/blob/master/Basic/Javascript/Famous_Algorithm/kruskal.js)
 - Prim [js](https://github.com/ss-won/For-Coding-Test/blob/master/Basic/Javascript/Famous_Algorithm/prim.js)
-- Karp_Rabin_Algorithm
+- Karp_Rabin_Algorithm [js](https://github.com/ss-won/For-Coding-Test/blob/master/Basic/Javascript/Famous_Algorithm/rabin_karp.js)
 - KMP_Algorithm [js](https://github.com/ss-won/For-Coding-Test/blob/master/Basic/Javascript/Famous_Algorithm/kmp.js)
 
 ## Reference
