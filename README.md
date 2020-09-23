@@ -19,7 +19,7 @@
 - Gold
 - Silver
 - Bronze
-- DFS/BFS
+- Platinum
 
 ### [프로그래머스 문제풀이](https://github.com/ss-won/For-Coding-Test/blob/master/Programmers/programmers.md)  
 > 카카오, 프로그래머스 챌린지, 코딩테스트 코득점 Kit 위주
