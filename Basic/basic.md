@@ -102,6 +102,9 @@
 - 오름차순으로 정렬된 배열을 Binary Search Tree로 변환한다.
 - 주어진 트리가 BST인지 확인한다.
 
+### Tree
+- Trie 구현하기 [js](https://github.com/ss-won/For-Coding-Test/blob/master/Basic/Javascript/Datastructure/trie.js)
+
 ### Priority Queue
 - Priority queue 구현하기. [js](https://github.com/ss-won/For-Coding-Test/blob/master/Basic/Javascript/Datastructure/priorityqueue.js)
 - Priority queue를 사용하여 heap sort를 하라. [js](https://github.com/ss-won/For-Coding-Test/blob/master/Basic/Javascript/Datastructure/heapsort.js)
