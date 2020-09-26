@@ -1,4 +1,4 @@
-// 적절한 p, power를 찾으면 O(1)인 알고리즘이다.
+// 적절한 p, power를 찾으면 O(m-n)인 알고리즘이다. (m = s.length, n = p.length)
 // 그러나 대부분의 경우 충돌이 발생할 수 있기 때문에, ckmatch연산을 넣어주었다. 
 // 따라서 아래 코드의 시간복잡도는 O((m-n)*n) = O(n^2)이다. (m = s.length, n = p.length)
 
