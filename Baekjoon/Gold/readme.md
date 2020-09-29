@@ -3,9 +3,11 @@
 ## Gold 등급별 문제 풀이 모음
 > 숫자가 적을 수록 높은 단계입니다.
 - G1
+    - 1786(찾기) [문제](https://www.acmicpc.net/problem/1786) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Gold/code/1786.cpp)
 - G2
     - 14657(준오는 최종인재야!!) [문제](https://www.acmicpc.net/problem/14657) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Gold/code/14657.cpp)
     - 1655(가운데를 말해요) [문제](https://www.acmicpc.net/problem/1655) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Gold/code/1655.cpp)
+    - 4195(친구 네트워크) [문제](https://www.acmicpc.net/problem/4195) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Gold/code/4195.cpp)
 - G3
     - 3078(좋은 친구) [문제](https://www.acmicpc.net/problem/3078) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Gold/code/3078.cpp)
     - 1806(부분합) [문제](https://www.acmicpc.net/problem/1806) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Gold/code/1806.cpp)
