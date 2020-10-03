@@ -11,6 +11,8 @@
 - G3
     - 3078(좋은 친구) [문제](https://www.acmicpc.net/problem/3078) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Gold/code/3078.cpp)
     - 1806(부분합) [문제](https://www.acmicpc.net/problem/1806) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Gold/code/1806.cpp)
+    - 1039(교환) [문제](https://www.acmicpc.net/problem/1039) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Gold/code/1039.cpp)
+    - 2696(중앙값 구하기) [문제](https://www.acmicpc.net/problem/2696) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Gold/code/2696.cpp)
 - G4
     - 1715(카드정렬하기) [문제](https://www.acmicpc.net/problem/1715) | [py](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Gold/code/1715.py)
     - 5427(불) [문제](https://www.acmicpc.net/problem/5427) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Gold/code/5427.cpp)
