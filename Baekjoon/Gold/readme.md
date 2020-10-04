@@ -20,6 +20,8 @@
     - 1717(집합의 표현) [문제](https://www.acmicpc.net/problem/1717) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Gold/code/1717.cpp)
     - 1976(여행 가자) [문제](https://www.acmicpc.net/problem/1976) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Gold/code/1976.cpp)
     - 2206(벽 부수고 이동하기) [문제](https://www.acmicpc.net/problem/2206) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Gold/code/2206.cpp)
+    - 1197(최소 스패닝 트리) [문제](https://www.acmicpc.net/problem/1197) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Gold/code/1197.cpp)
+    - 1520(내리막 길) [문제](https://www.acmicpc.net/problem/1520) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Gold/code/1520.cpp)
 - G5
     - 10026(적록색약) [문제](https://www.acmicpc.net/problem/10026) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Gold/code/10026.cpp)
     - 1753(최단경로) [문제](https://www.acmicpc.net/problem/1753) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Gold/code/1753.cpp)
