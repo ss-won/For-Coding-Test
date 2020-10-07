@@ -13,6 +13,7 @@
     - 1806(부분합) [문제](https://www.acmicpc.net/problem/1806) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Gold/code/1806.cpp)
     - 1039(교환) [문제](https://www.acmicpc.net/problem/1039) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Gold/code/1039.cpp)
     - 2696(중앙값 구하기) [문제](https://www.acmicpc.net/problem/2696) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Gold/code/2696.cpp)
+    - 1167(트리의 지름) [문제](https://www.acmicpc.net/problem/1167) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Gold/code/1167.cpp)
 - G4
     - 1715(카드정렬하기) [문제](https://www.acmicpc.net/problem/1715) | [py](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Gold/code/1715.py)
     - 5427(불) [문제](https://www.acmicpc.net/problem/5427) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Gold/code/5427.cpp)
@@ -27,3 +28,4 @@
     - 10026(적록색약) [문제](https://www.acmicpc.net/problem/10026) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Gold/code/10026.cpp)
     - 1753(최단경로) [문제](https://www.acmicpc.net/problem/1753) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Gold/code/1753.cpp)
     - 9019(DSLR) [문제](https://www.acmicpc.net/problem/9019) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Gold/code/9019.cpp)
+    - 3190(뱀) [문제](https://www.acmicpc.net/problem/3190) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Gold/code/3190.cpp)
