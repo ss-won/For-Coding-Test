@@ -26,6 +26,7 @@
     - 1141(접두사) [문제](https://www.acmicpc.net/problem/1141) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Silver/code/1141.cpp)
     - 16925(문자열 추측) [문제](https://www.acmicpc.net/problem/16925) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Silver/code/16925.cpp)
     - 11053(가장 긴 증가하는 부분 수열) [문제](https://www.acmicpc.net/problem/11053) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Silver/code/11053.cpp)
+    - 11725(트리의 부모 찾기) [문제](https://www.acmicpc.net/problem/11725) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Silver/code/11725.cpp)
 - S3
     - 1449(수리공 항승) [문제](https://www.acmicpc.net/problem/1449) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Silver/code/1449.cpp)
     - 1463(1로 만들기) [문제](https://www.acmicpc.net/problem/1463) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Silver/code/1463.cpp)
