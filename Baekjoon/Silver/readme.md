@@ -12,6 +12,7 @@
     - 4889(안정적인 문자열) [문제](https://www.acmicpc.net/problem/4889) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Silver/code/4889.cpp)
     - 7576(토마토) [문제](https://www.acmicpc.net/problem/7576) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Silver/code/7576.cpp)
     - 1074(Z) [문제](https://www.acmicpc.net/problem/1074) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Silver/code/1074.cpp)
+    - 5639(이진 검색 트리) [문제](https://www.acmicpc.net/problem/5639) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Silver/code/5639.cpp)
 - S2
     - 16500(문자열 판별) [문제](https://www.acmicpc.net/problem/16500) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Silver/code/16500.cpp)
     - 11724(연결 요소의 개수) [문제](https://www.acmicpc.net/problem/11724) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Silver/code/11724.cpp)

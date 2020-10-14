@@ -16,6 +16,7 @@
     - 1039(교환) [문제](https://www.acmicpc.net/problem/1039) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Gold/code/1039.cpp)
     - 2696(중앙값 구하기) [문제](https://www.acmicpc.net/problem/2696) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Gold/code/2696.cpp)
     - 1167(트리의 지름) [문제](https://www.acmicpc.net/problem/1167) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Gold/code/1167.cpp)
+    - 2263(트리의 순회) [문제](https://www.acmicpc.net/problem/2263) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Gold/code/2263.cpp)
 - G4
     - 1715(카드정렬하기) [문제](https://www.acmicpc.net/problem/1715) | [py](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Gold/code/1715.py)
     - 5427(불) [문제](https://www.acmicpc.net/problem/5427) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Gold/code/5427.cpp)
