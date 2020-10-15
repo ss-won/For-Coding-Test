@@ -28,6 +28,8 @@
     - 1520(내리막 길) [문제](https://www.acmicpc.net/problem/1520) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Gold/code/1520.cpp)
     - 2075(N번째 큰 수) [문제](https://www.acmicpc.net/problem/2075) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Gold/code/2075.cpp)
     - 14002(가장 긴 증가하는 부분 수열4) [문제](https://www.acmicpc.net/problem/14002) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Gold/code/14002.cpp)
+    - 1922(네트워크 연결) [문제](https://www.acmicpc.net/problem/1922) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Gold/code/1922.cpp)
+    - 1967(트리의 지름) [문제](https://www.acmicpc.net/problem/1967) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Gold/code/1967.cpp)
 - G5
     - 10026(적록색약) [문제](https://www.acmicpc.net/problem/10026) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Gold/code/10026.cpp)
     - 1753(최단경로) [문제](https://www.acmicpc.net/problem/1753) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Gold/code/1753.cpp)
