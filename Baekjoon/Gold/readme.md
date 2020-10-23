@@ -6,6 +6,7 @@
 
 - G1
   - 1786(찾기) [문제](https://www.acmicpc.net/problem/1786) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Gold/code/1786.cpp)
+  - 14003(가장 긴 증가하는 부분 수열 5) [문제](https://www.acmicpc.net/problem/14003) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Gold/code/14003.cpp)
 - G2
   - 14657(준오는 최종인재야!!) [문제](https://www.acmicpc.net/problem/14657) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Gold/code/14657.cpp)
   - 1655(가운데를 말해요) [문제](https://www.acmicpc.net/problem/1655) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Gold/code/1655.cpp)
