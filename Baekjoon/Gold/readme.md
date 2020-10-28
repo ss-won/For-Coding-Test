@@ -35,6 +35,7 @@
   - 1922(네트워크 연결) [문제](https://www.acmicpc.net/problem/1922) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Gold/code/1922.cpp)
   - 1967(트리의 지름) [문제](https://www.acmicpc.net/problem/1967) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Gold/code/1967.cpp)
   - 11657(타임머신) [문제](https://www.acmicpc.net/problem/11657) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Gold/code/11657.cpp)
+  - 1504(특정한 최단 경로) [문제](https://www.acmicpc.net/problem/1504) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Gold/code/1504.cpp)
 - G5
   - 10026(적록색약) [문제](https://www.acmicpc.net/problem/10026) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Gold/code/10026.cpp)
   - 1753(최단경로) [문제](https://www.acmicpc.net/problem/1753) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Gold/code/1753.cpp)
