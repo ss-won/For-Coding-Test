@@ -38,6 +38,7 @@
   - 1504(특정한 최단 경로) [문제](https://www.acmicpc.net/problem/1504) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Gold/code/1504.cpp)
   - 1987(알파벳) [문제](https://www.acmicpc.net/problem/1987) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Gold/code/1987.cpp)
   - 2448(별찍기 - 11) [문제](https://www.acmicpc.net/problem/2448) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Gold/code/2448.cpp)
+  - 2580(스도구) [문제](https://www.acmicpc.net/problem/2580) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Gold/code/2580.cpp)
 - G5
   - 10026(적록색약) [문제](https://www.acmicpc.net/problem/10026) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Gold/code/10026.cpp)
   - 1753(최단경로) [문제](https://www.acmicpc.net/problem/1753) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Gold/code/1753.cpp)
