@@ -48,3 +48,4 @@
   - 11000(강의실 배정) [문제](https://www.acmicpc.net/problem/11000) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Gold/code/11000.cpp)
   - 14719(빗물) [문제](https://www.acmicpc.net/problem/14719) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Gold/code/14719.cpp)
   - 3055(탈출) [문제](https://www.acmicpc.net/problem/3055) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Gold/code/3055.cpp)
+  - 5014(스타트링크) [문제](https://www.acmicpc.net/problem/5014) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Gold/code/5014.cpp)
