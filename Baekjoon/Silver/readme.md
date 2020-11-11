@@ -37,6 +37,8 @@
   - 9095(1,2,3 더하기) [문제](https://www.acmicpc.net/problem/9095) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Silver/code/9095.cpp)
   - 14594(동방 프로젝트(Small)) [문제](https://www.acmicpc.net/problem/14594) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Silver/code/14594.cpp)
   - 1003(피보나치 함수) [문제](https://www.acmicpc.net/problem/1003) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Silver/code/1003.cpp)
+  - 1904(01타일) [문제](https://www.acmicpc.net/problem/1904) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Silver/code/1904.cpp)
+  - 9461(파도반 수열) [문제](https://www.acmicpc.net/problem/9461) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Silver/code/9461.cpp)
 - S4
 - S5
   - 2748(피보나치 수 2) [문제](https://www.acmicpc.net/problem/2748) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Silver/code/2748.cpp)
