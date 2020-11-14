@@ -17,6 +17,7 @@
   - 5639(이진 검색 트리) [문제](https://www.acmicpc.net/problem/5639) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Silver/code/5639.cpp)
   - 1991(트리 순회) [문제](https://www.acmicpc.net/problem/1991) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Silver/code/1991.cpp)
   - 1149(RGB거리) [문제](https://www.acmicpc.net/problem/1149) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Silver/code/1149.cpp)
+  - 1932(정수 삼각형) [문제](https://www.acmicpc.net/problem/1932) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Silver/code/1932.cpp)
 - S2
   - 16500(문자열 판별) [문제](https://www.acmicpc.net/problem/16500) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Silver/code/16500.cpp)
   - 11724(연결 요소의 개수) [문제](https://www.acmicpc.net/problem/11724) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Silver/code/11724.cpp)
