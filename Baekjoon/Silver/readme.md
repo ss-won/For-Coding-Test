@@ -42,6 +42,7 @@
   - 1003(피보나치 함수) [문제](https://www.acmicpc.net/problem/1003) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Silver/code/1003.cpp)
   - 1904(01타일) [문제](https://www.acmicpc.net/problem/1904) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Silver/code/1904.cpp)
   - 9461(파도반 수열) [문제](https://www.acmicpc.net/problem/9461) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Silver/code/9461.cpp)
+  - 2579(계단 오르기) [문제](https://www.acmicpc.net/problem/2579) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Silver/code/2579.cpp)
 - S4
 - S5
   - 2748(피보나치 수 2) [문제](https://www.acmicpc.net/problem/2748) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Silver/code/2748.cpp)
