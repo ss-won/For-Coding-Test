@@ -20,6 +20,7 @@
   - 1932(정수 삼각형) [문제](https://www.acmicpc.net/problem/1932) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Silver/code/1932.cpp)
   - 10844(쉬운 계단 수) [문제](https://www.acmicpc.net/problem/10844) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Silver/code/10844.cpp)
   - 2156(포도주 시식) [문제](https://www.acmicpc.net/problem/2156) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Silver/code/2156.cpp)
+  - 16925(문자열 추측) [문제](https://www.acmicpc.net/problem/16925) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Silver/code/16925.cpp)
 - S2
   - 16500(문자열 판별) [문제](https://www.acmicpc.net/problem/16500) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Silver/code/16500.cpp)
   - 11724(연결 요소의 개수) [문제](https://www.acmicpc.net/problem/11724) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Silver/code/11724.cpp)
@@ -32,9 +33,10 @@
   - 5430(AC) [문제](https://www.acmicpc.net/problem/5430) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Silver/code/5430.cpp)
   - 10552(DOM) [문제](https://www.acmicpc.net/problem/10552) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Silver/code/10552.cpp)
   - 1141(접두사) [문제](https://www.acmicpc.net/problem/1141) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Silver/code/1141.cpp)
-  - 16925(문자열 추측) [문제](https://www.acmicpc.net/problem/16925) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Silver/code/16925.cpp)
   - 11053(가장 긴 증가하는 부분 수열) [문제](https://www.acmicpc.net/problem/11053) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Silver/code/11053.cpp)
   - 11725(트리의 부모 찾기) [문제](https://www.acmicpc.net/problem/11725) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Silver/code/11725.cpp)
+  - 1912(연속합) [문제](https://www.acmicpc.net/problem/1912) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Silver/code/1912.cpp)
+  - 18870(좌표 압축) [문제](https://www.acmicpc.net/problem/18870) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Silver/code/18870.cpp)
 - S3
   - 1449(수리공 항승) [문제](https://www.acmicpc.net/problem/1449) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Silver/code/1449.cpp)
   - 1463(1로 만들기) [문제](https://www.acmicpc.net/problem/1463) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Silver/code/1463.cpp)
