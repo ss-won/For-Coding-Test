@@ -50,6 +50,7 @@
   - 2606(바이러스) [문제](https://www.acmicpc.net/problem/2606) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Silver/code/2606.cpp)
   - 11726(2×n 타일링) [문제](https://www.acmicpc.net/problem/11726) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Silver/code/11726.cpp)
 - S4
+  - 1021(회전하는 큐) [문제](https://www.acmicpc.net/problem/1021) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Silver/code/1021.cpp)
+  - 2164(카드2) [문제](https://www.acmicpc.net/problem/2164) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Silver/code/2164.cpp)
 - S5
   - 2748(피보나치 수 2) [문제](https://www.acmicpc.net/problem/2748) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Silver/code/2748.cpp)
-  - 1021(회전하는 큐) [문제](https://www.acmicpc.net/problem/1021) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Silver/code/1021.cpp)
