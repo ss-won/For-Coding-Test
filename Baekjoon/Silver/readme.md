@@ -52,5 +52,7 @@
 - S4
   - 1021(회전하는 큐) [문제](https://www.acmicpc.net/problem/1021) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Silver/code/1021.cpp)
   - 2164(카드2) [문제](https://www.acmicpc.net/problem/2164) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Silver/code/2164.cpp)
+  - 3986(좋은 단어) [문제](https://www.acmicpc.net/problem/3986) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Silver/code/3986.cpp)
+  - 10845(큐) [문제](https://www.acmicpc.net/problem/10845) | [py](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Silver/code/10845.py)
 - S5
   - 2748(피보나치 수 2) [문제](https://www.acmicpc.net/problem/2748) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Silver/code/2748.cpp)
