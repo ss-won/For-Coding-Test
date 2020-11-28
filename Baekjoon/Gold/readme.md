@@ -50,3 +50,4 @@
   - 3055(탈출) [문제](https://www.acmicpc.net/problem/3055) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Gold/code/3055.cpp)
   - 5014(스타트링크) [문제](https://www.acmicpc.net/problem/5014) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Gold/code/5014.cpp)
   - 6593(상범빌딩) [문제](https://www.acmicpc.net/problem/6593) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Gold/code/6593.cpp)
+  - 13023(ABCDE) [문제](https://www.acmicpc.net/problem/13023) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Gold/code/13023.cpp)
