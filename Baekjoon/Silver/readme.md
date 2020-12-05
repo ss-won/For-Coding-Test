@@ -59,3 +59,4 @@
 - S5
   - 2748(피보나치 수 2) [문제](https://www.acmicpc.net/problem/2748) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Silver/code/2748.cpp)
   - 17509( And the Winner Is... Ourselves!) [문제](https://www.acmicpc.net/problem/17509) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Silver/code/17509.cpp)
+  - 1315(그룹 단어 체커) [문제](https://www.acmicpc.net/problem/1315) | [js](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Silver/code/1315.js)
