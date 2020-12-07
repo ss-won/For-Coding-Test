@@ -61,3 +61,4 @@
   - 17509( And the Winner Is... Ourselves!) [문제](https://www.acmicpc.net/problem/17509) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Silver/code/17509.cpp)
   - 1315(그룹 단어 체커) [문제](https://www.acmicpc.net/problem/1315) | [js](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Silver/code/1315.js)
   - 2609(최대공약수와 최소공배수) [문제](https://www.acmicpc.net/problem/2609) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Silver/code/2609.cpp)
+  - 2941(크로아티아 알파벳) [문제](https://www.acmicpc.net/problem/2941) | [py](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Silver/code/2941.py)
