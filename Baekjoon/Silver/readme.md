@@ -56,6 +56,7 @@
   - 10845(큐) [문제](https://www.acmicpc.net/problem/10845) | [py](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Silver/code/10845.py)
   - 18258(큐2) [문제](https://www.acmicpc.net/problem/18258) | [py](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Silver/code/18258.py)
   - 10866(덱) [문제](https://www.acmicpc.net/problem/10866) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Silver/code/10866.cpp)
+  - 9012(괄호) [문제](https://www.acmicpc.net/problem/9012) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Silver/code/9012.cpp)
 - S5
   - 2748(피보나치 수 2) [문제](https://www.acmicpc.net/problem/2748) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Silver/code/2748.cpp)
   - 17509( And the Winner Is... Ourselves!) [문제](https://www.acmicpc.net/problem/17509) | [cpp](https://github.com/ss-won/For-Coding-Test/tree/master/Baekjoon/Silver/code/17509.cpp)
