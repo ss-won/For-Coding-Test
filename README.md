@@ -14,12 +14,10 @@
 - Sort and Search
 - Famous Algorithm
 
-### [백준 문제풀이](https://github.com/ss-won/For-Coding-Test/blob/master/Baekjoon/baekjoon.md)  
+### [백준 문제풀이](https://github.com/ss-won/baekjoon)  
 > 유저들에게 인기가 많은 문제집, 대표 알고리즘 활용 유형
-- Gold
-- Silver
-- Bronze
-- Platinum
+- 다른 Repository에서 관리하고 있습니다. title을 클릭하면 해당 Repository로 이동합니다.🙌
+- 문제풀이과정은 [블로그](https://velog.io/@ss-won/series/PS)에 업데이트 중입니다.
 
 ### [프로그래머스 문제풀이](https://github.com/ss-won/For-Coding-Test/blob/master/Programmers/programmers.md)  
 > 카카오, 프로그래머스 챌린지, 코딩테스트 코득점 Kit 위주
